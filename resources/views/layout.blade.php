@@ -64,8 +64,8 @@
                                 </div>
                                 <div class="header-info-right d-flex align-items-center">
                                    <ul>
-                                       <li><a href="about.html">About</a></li>
-                                       <li><a href="contact.html">Contact</a></li>
+                                       <li><a href="about.blade.php">About</a></li>
+                                       <li><a href="contact.blade.php">Contact</a></li>
                                        <li><a href="login.blade.php">Log In  or  Sign Up</a></li>
                                    </ul>
                                    <!-- Social -->
