@@ -66,7 +66,7 @@
                                    <ul>
                                        <li><a href="about.html">About</a></li>
                                        <li><a href="contact.html">Contact</a></li>
-                                       <li><a href="login.html">Log In  or  Sign Up</a></li>
+                                       <li><a href="login.blade.php">Log In  or  Sign Up</a></li>
                                    </ul>
                                    <!-- Social -->
                                    <div class="header-social">
