@@ -64,9 +64,9 @@
                                 </div>
                                 <div class="header-info-right d-flex align-items-center">
                                    <ul>
-                                       <li><a href="about.blade.php">About</a></li>
-                                       <li><a href="contact.blade.php">Contact</a></li>
-                                       <li><a href="login.blade.php">Log In  or  Sign Up</a></li>
+                                       <li><a href="{{ route('about') }}">About</a></li>
+                                       <li><a href="{{ route('contact') }}">Contact</a></li>
+                                       <li><a href="{{ route('login') }}">Log In  or  Sign Up</a></li>
                                    </ul>
                                    <!-- Social -->
                                    <div class="header-social">
