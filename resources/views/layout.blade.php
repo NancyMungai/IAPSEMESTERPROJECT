@@ -1,254 +1,228 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Magazine News</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
-	<!-- CSS here -->
-	<link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
-	<link rel="stylesheet" href="{{asset('assets/css/owl.carousel.min.css')}}">
-	<link rel="stylesheet" href="{{asset('assets/css/slicknav.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/flaticon.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/progressbar_barfiller.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/gijgo.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/animate.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/animated-headline.css')}}">
+	<!-- title -->
+	<title>Fruitkha - Slider Version</title>
+
+	<!-- favicon -->
+	<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="{{asset('assets/css/all.min.css')}}">
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="{{asset('assets/bootstrap/css/bootstrap.min.css')}}">
+	<!-- owl carousel -->
+	<link rel="stylesheet" href="{{asset('assets/css/owl.carousel.css')}}">
+	<!-- magnific popup -->
 	<link rel="stylesheet" href="{{asset('assets/css/magnific-popup.css')}}">
-	<link rel="stylesheet" href="{{asset('assets/css/fontawesome-all.min.css')}}">
-	<link rel="stylesheet" href="{{asset('assets/css/themify-icons.css')}}">
-	<link rel="stylesheet" href="{{asset('assets/css/slick.css')}}">
-	<link rel="stylesheet" href="{{asset('assets/css/nice-select.css')}}">
-	<link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+	<!-- animate css -->
+	<link rel="stylesheet" href="{{asset('assets/css/animate.css')}}">
+	<!-- mean menu css -->
+	<link rel="stylesheet" href="{{asset('assets/css/meanmenu.min.css')}}">
+	<!-- main style -->
+	<link rel="stylesheet" href="{{asset('assets/css/main.css')}}">
+	<!-- responsive -->
+	<link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}">
+
 </head>
 <body>
-    <!-- ? Preloader Start -->
-    <div id="preloader-active">
-        <div class="preloader d-flex align-items-center justify-content-center">
-            <div class="preloader-inner position-relative">
-                <div class="preloader-circle"></div>
-                <div class="preloader-img pere-text">
-                    <img src="assets/img/logo/loder.png" alt="">
-                </div>
-            </div>
+
+	<!--PreLoader-->
+    <div class="loader">
+        <div class="loader-inner">
+            <div class="circle"></div>
         </div>
     </div>
-    <!-- Preloader Start-->
-    <header>
-        <!-- Header Start -->
-       <div class="header-area">
-            <div class="main-header ">
-                <div class="header-top ">
-                   <div class="container-fluid">
-                       <div class="col-xl-12">
-                            <div class="row d-flex justify-content-lg-between align-items-center">
-                                <div class="header-info-left">
-                                    <li class="d-none d-lg-block">
-                                        <div class="form-box f-right ">
-                                            <input type="text" name="Search" placeholder="Search your interest...">
-                                            <div class="search-icon">
-                                                <i class="ti-search"></i>
-                                            </div>
-                                        </div>
-                                     </li>
-                                </div>
-                                <div class="header-info-mid">
-                                    <!-- logo -->
-                                    <div class="logo">
-                                        <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
-                                    </div>
-                                </div>
-                                <div class="header-info-right d-flex align-items-center">
-                                   <ul>
-                                       <li><a href="{{ route('about') }}">About</a></li>
-                                       <li><a href="{{ route('contact') }}">Contact</a></li>
-                                       <li><a href="{{ route('login') }}">Log In  or  Sign Up</a></li>
-                                   </ul>
-                                   <!-- Social -->
-                                   <div class="header-social">
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="https://bit.ly/sai4ull"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                       </div>
-                   </div>
-                </div>
-               <div class="header-bottom  header-sticky">
-                    <div class="container-fluid">
-                        <div class="row align-items-center">
-                            <div class="col-12">
-                                <!-- logo 2 -->
-                                <div class="logo2">
-                                    <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
-                                </div>
-                                <!-- logo 3 -->
-                                <div class="logo3 d-block d-sm-none">
-                                    <a href="index.html"><img src="assets/img/logo/logo-mobile.png" alt=""></a>
-                                </div>
-                                <!-- Main-menu -->
-                                <div class="main-menu text-center d-none d-lg-block">
-                                    <nav>
-                                        <ul id="navigation">
-                                            <li><a href="category.html">Lifestyle</a></li>
-                                            <li><a href="category.html">Business</a></li>
-                                            <li><a href="category.html">Fashion</a></li>
-                                            <li><a href="category.html">Design</a></li>
-                                            <li><a href="category.html">Health</a></li>
-                                            <li><a href="category.html">Harmful</a></li>
-                                            <li><a href="category.html">Technology</a></li>
-                                            <li><a href="category.html">Travel</a></li>
-                                            <li><a href="category.html">Food</a></li>
-                                            <li><a href="category.html">Creative</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                            <!-- Mobile Menu -->
-                            <div class="col-12">
-                                <div class="mobile_menu d-block d-lg-none"></div>
-                            </div>
-                        </div>
-                    </div>
-               </div>
-            </div>
-       </div>
-        <!-- Header End -->
-    </header>
+    <!--PreLoader Ends-->
+
+	<!-- header -->
+	<div class="top-header-area" id="sticker">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-sm-12 text-center">
+					<div class="main-menu-wrap">
+						<!-- logo -->
+						<div class="site-logo">
+							<a href="index.html">
+								<img src="assets/img/logo.png" alt="">
+							</a>
+						</div>
+						<!-- logo -->
+
+						<!-- menu start -->
+						<nav class="main-menu">
+							<ul>
+								<li class="current-list-item"><a href="#">Home</a>
+									<ul class="sub-menu">
+										<li><a href="index.html">Static Home</a></li>
+										<li><a href="index_2.html">Slider Home</a></li>
+									</ul>
+								</li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="#">Pages</a>
+									<ul class="sub-menu">
+										<li><a href="404.html">404 page</a></li>
+										<li><a href="about.html">About</a></li>
+										<li><a href="cart.html">Cart</a></li>
+										<li><a href="checkout.html">Check Out</a></li>
+										<li><a href="contact.html">Contact</a></li>
+										<li><a href="news.html">News</a></li>
+										<li><a href="shop.html">Shop</a></li>
+									</ul>
+								</li>
+								<li><a href="news.html">News</a>
+									<ul class="sub-menu">
+										<li><a href="news.html">News</a></li>
+										<li><a href="single-news.html">Single News</a></li>
+									</ul>
+								</li>
+								<li><a href="contact.html">Contact</a></li>
+								<li><a href="shop.html">Shop</a>
+									<ul class="sub-menu">
+										<li><a href="shop.html">Shop</a></li>
+										<li><a href="checkout.html">Check Out</a></li>
+										<li><a href="single-product.html">Single Product</a></li>
+										<li><a href="cart.html">Cart</a></li>
+									</ul>
+								</li>
+								<li>
+									<div class="header-icons">
+										<a class="shopping-cart" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+										<a class="mobile-hide search-bar-icon" href="#"><i class="fas fa-search"></i></a>
+									</div>
+								</li>
+							</ul>
+						</nav>
+						<a class="mobile-show search-bar-icon" href="#"><i class="fas fa-search"></i></a>
+						<div class="mobile-menu"></div>
+						<!-- menu end -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end header -->
+
+	<!-- search area -->
+	<div class="search-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<span class="close-btn"><i class="fas fa-window-close"></i></span>
+					<div class="search-bar">
+						<div class="search-bar-tablecell">
+							<h3>Search For:</h3>
+							<input type="text" placeholder="Keywords">
+							<button type="submit">Search <i class="fas fa-search"></i></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end search area -->
+
     @yield('content')
 
 
-    <footer>
-        <!-- Footer Start-->
-        <div class="footer-area footer-padding">
-            <div class="header-area">
-                <div class="main-header ">
-                    <div class="header-top d-lg-block d-none">
-                       <div class="container">
-                           <div class="col-xl-12">
-                                <div class="row d-flex justify-content-between align-items-center">
-                                    <div class="header-info-left d-flex justify-content-center">
-                                        <!-- Social -->
-                                        <div class="header-social">
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                            <a href="https://bit.ly/sai4ull"><i class="fab fa-facebook-f"></i></a>
-                                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="header-info-mid">
-                                        <!-- logo -->
-                                        <div class="logo">
-                                            <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
-                                        </div>
-                                    </div>
-                                    <div class="header-info-right d-flex align-items-center">
-                                       <ul>
-                                           <li><a href="about.html">About</a></li>
-                                           <li><a href="contact.html">Contact</a></li>
-                                       </ul>
-                                    </div>
-                                </div>
-                           </div>
-                       </div>
-                    </div>
-                   <div class="header-bottom header-bottom2 ">
-                        <div class="container-fluid">
-                            <div class="row align-items-center">
-                                <div class="col-12">
-                                    <!-- Main-menu -->
-                                    <div class="main-menu text-center">
-                                        <nav>
-                                            <ul>
-                                                <li><a href="category.html">Lifestyle</a></li>
-                                                <li><a href="category.html">Business</a></li>
-                                                <li><a href="category.html">Fashion</a></li>
-                                                <li><a href="category.html">Design</a></li>
-                                                <li><a href="category.html">Health</a></li>
-                                                <li><a href="category.html">Harmful</a></li>
-                                                <li><a href="category.html">Technology</a></li>
-                                                <li><a href="category.html">Travel</a></li>
-                                                <li><a href="category.html">Food</a></li>
-                                                <li><a href="category.html">Creative</a></li>
-                                            </ul>
-                                        </nav>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                   </div>
-                </div>
-           </div>
-        </div>
-        <!-- footer-bottom area -->
-        <div class="footer-bottom-area">
-            <div class="container">
-                <div class="footer-border">
-                    <div class="row align-items-center justify-content-center">
-                        <div class="col-xl-9 col-lg-8">
-                            <div class="footer-copy-right text-center">
-                                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Footer End-->
-    </footer>
 
-    <!-- Scroll Up -->
-    <div id="back-top" >
-        <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
-    </div>
+	<!-- footer -->
+	<div class="footer-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box about-widget">
+						<h2 class="widget-title">About us</h2>
+						<p>Ut enim ad minim veniam perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box get-in-touch">
+						<h2 class="widget-title">Get in Touch</h2>
+						<ul>
+							<li>34/8, East Hukupara, Gifirtok, Sadan.</li>
+							<li>support@fruitkha.com</li>
+							<li>+00 111 222 3333</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box pages">
+						<h2 class="widget-title">Pages</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="services.html">Shop</a></li>
+							<li><a href="news.html">News</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box subscribe">
+						<h2 class="widget-title">Subscribe</h2>
+						<p>Subscribe to our mailing list to get the latest updates.</p>
+						<form action="index.html">
+							<input type="email" placeholder="Email">
+							<button type="submit"><i class="fas fa-paper-plane"></i></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end footer -->
 
-    <!-- JS here -->
+	<!-- copyright -->
+	<div class="copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12">
+					<p>Copyrights &copy; 2019 - <a href="https://imransdesign.com/">Imran Hossain</a>,  All Rights Reserved.</p>
+				</div>
+				<div class="col-lg-6 text-right col-md-12">
+					<div class="social-icons">
+						<ul>
+							<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end copyright -->
 
-    <script src="{{asset('./assets/js/vendor/modernizr-3.5.0.min.js')}}"></script>
-    <!-- Jquery, Popper, Bootstrap -->
-    <script src="{{asset('./assets/js/vendor/jquery-1.12.4.min.js')}}"></script>
-    <script src="{{asset('./assets/js/popper.min.js')}}"></script>
-    <script src="{{asset('./assets/js/bootstrap.min.js')}}"></script>
-    <!-- Jquery Mobile Menu -->
-    <script src="{{asset('./assets/js/jquery.slicknav.min.js')}}"></script>
+	<!-- jquery -->
+	<script src="{{asset('assets/js/jquery-1.11.3.min.js')}}"></script>
+	<!-- bootstrap -->
+	<script src="{{asset('assets/bootstrap/js/bootstrap.min.js')}}"></script>
+	<!-- count down -->
+	<script src="{{asset('assets/js/jquery.countdown.js')}}"></script>
+	<!-- isotope-->
+	<script src="{{asset('assets/js/jquery.isotope-3.0.6.min.js')}}"></script>
+	<!-- waypoints -->
+	<script src="{{asset('assets/js/waypoints.js')}}"></script>
+	<!-- owl carousel -->
+	<script src="{{asset('assets/js/owl.carousel.min.js')}}"></script>
+	<!-- magnificpopup -->
+	<script src="{{asset('assets/js/jquery.magnific-popup.min.js')}}"></script>
+	<!-- mean menu -->
+	<script src="{{asset('assets/js/jquery.meanmenu.min.js')}}"></script>
+	<!-- sticker js -->
+	<script src="{{asset('assets/js/sticker.js')}}"></script>
+	<!-- main js -->
+	<script src="{{asset('assets/js/main.js')}}"></script>
 
-    <!-- Jquery Slick , Owl-Carousel Plugins -->
-    <script src="{{asset('./assets/js/owl.carousel.min.js')}}"></script>
-    <script src="{{asset('./assets/js/slick.min.js')}}"></script>
-    <!-- One Page, Animated-HeadLin -->
-    <script src="{{asset('./assets/js/wow.min.js')}}"></script>
-    <script src="{{asset('./assets/js/animated.headline.js')}}"></script>
-    <script src="{{asset('./assets/js/jquery.magnific-popup.js')}}"></script>
-
-    <!-- Date Picker -->
-    <script src="{{asset('./assets/js/gijgo.min.js')}}"></script>
-    <!-- Nice-select, sticky -->
-    <script src="{{asset('./assets/js/jquery.nice-select.min.js')}}"></script>
-    <script src="{{asset('./assets/js/jquery.sticky.js')}}"></script>
-    <!-- Progress -->
-    <script src="{{asset('./assets/js/jquery.barfiller.js')}}"></script>
-
-    <!-- counter , waypoint,Hover Direction -->
-    <script src="{{asset('./assets/js/jquery.counterup.min.js')}}"></script>
-    <script src="{{asset('./assets/js/waypoints.min.js')}}"></script>
-    <script src="{{asset('./assets/js/jquery.countdown.min.js')}}"></script>
-    <script src="{{asset('./assets/js/hover-direction-snake.min.js')}}"></script>
-    <!-- contact js -->
-    <script src="{{asset('./assets/js/contact.js')}}"></script>
-    <script src="{{asset('./assets/js/jquery.form.js')}}"></script>
-    <script src="{{asset('./assets/js/jquery.validate.min.js')}}"></script>
-    <script src="{{asset('./assets/js/mail-script.js')}}"></script>
-    <script src="{{asset('./assets/js/jquery.ajaxchimp.min.js')}}"></script>
-
-    <!-- Jquery Plugins, main Jquery -->
-    <script src="{{asset('./assets/js/plugins.js')}}"></script>
-    <script src="{{asset('./assets/js/main.js')}}"></script>
-
-    </body>
+</body>
 </html>
