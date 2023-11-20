@@ -37,4 +37,4 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/about', [App\Http\Controllers\HomeController::class, 'about'])->name('about');
 Route::get('/contact', [App\Http\Controllers\HomeController::class, 'contact'])->name('contact');
 
-Route::get('/shopt', [App\Http\Controllers\HomeController::class, 'shop'])->name('shop');
+Route::get('/shop', [App\Http\Controllers\HomeController::class, 'shop'])->name('shop');
