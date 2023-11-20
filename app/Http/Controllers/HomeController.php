@@ -26,8 +26,8 @@ class HomeController extends Controller
     {
         return view('shop');
     }
-    public function cart()
+    public function checkout()
     {
-        return view('cart');
+        return view('checkout');
     }
 }
