@@ -30,4 +30,8 @@ class HomeController extends Controller
     {
         return view('checkout');
     }
+    public function news()
+    {
+        return view('news');
+    }
 }
