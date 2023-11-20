@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('content')
+@section('slot')
 <div class="container mx-auto mt-8">
     <div class="w-full max-w-xs m-auto">
         <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" method="POST" action="{{ route('login') }}">
