@@ -40,4 +40,8 @@ class HomeController extends Controller
     {
         return view('singleNews');
     }
+    public function shop()
+    {
+        return view('shop');
+    }
 }
