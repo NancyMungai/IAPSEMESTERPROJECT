@@ -70,7 +70,7 @@
 								<li><a href="/news">News</a>
 									<ul class="sub-menu">
 										<li><a href="/news">News</a></li>
-										<li><a href="single-news.html">Single News</a></li>
+										<li><a href="/singleNews">Single News</a></li>
 									</ul>
 								</li>
 								<li><a href="/contact">Contact</a></li>
@@ -89,7 +89,7 @@
 										<a class="mobile-hide search-bar-icon" href="#"><i class="fas fa-search"></i></a>
 									</div>
 								</li>
-								
+
 							</ul>
 						</nav>
 						<a class="mobile-show search-bar-icon" href="#"><i class="fas fa-search"></i></a>
