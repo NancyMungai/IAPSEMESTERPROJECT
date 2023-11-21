@@ -85,6 +85,16 @@
 
                     </div>
                 </div>
+@section('slot')
+<div class="container mx-auto mt-8">
+    <div class="w-full max-w-xs m-auto">
+        <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" method="POST" action="{{ route('login') }}">
+            @csrf
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+                    Email Address
+                </label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" name="email" required autofocus placeholder="Enter your email">
             </div>
         </div>
     </div>
