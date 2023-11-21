@@ -68,7 +68,21 @@
                                     @endif
                                 </div>
                             </div>
+                             <!-- Remember Me and Login Button -->
+
+                            <!-- Link to Register -->
+                            <div class="form-group row mb-0">
+                                <div class="col-md-8 offset-md-4">
+
+
+                                    <!-- Register Link -->
+                                    <p class="mt-3 mb-0">
+                                        Don't have an account? <a href="{{ route('register') }}">Register here</a>.
+                                    </p>
+                                </div>
+                            </div>
                         </form>
+
                     </div>
                 </div>
             </div>
