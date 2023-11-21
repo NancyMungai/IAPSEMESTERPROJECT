@@ -23,24 +23,21 @@ class HomeController extends Controller
         return view('login');
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    public function cart()
+    {
+        return view('cart');
+    }
 
     public function register()
     {
         return view('register');
+    }
+    public function news()
+    {
+        return view('news');
+    }
+    public function singleNews()
+    {
+        return view('singleNews');
     }
 }

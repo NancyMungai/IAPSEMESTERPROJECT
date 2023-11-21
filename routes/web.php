@@ -43,3 +43,4 @@ Route::get('/shop', [App\Http\Controllers\HomeController::class, 'shop'])->name(
 Route::get('/cart', [App\Http\Controllers\HomeController::class, 'cart'])->name('cart');
 Route::get('/checkout', [App\Http\Controllers\HomeController::class, 'checkout'])->name('checkout');
 Route::get('/news', [App\Http\Controllers\HomeController::class, 'news'])->name('news');
+Route::get('/singleNews', [App\Http\Controllers\HomeController::class, 'singleNews'])->name('singleNews');
