@@ -64,10 +64,7 @@
 								<li><a href="/about">About</a></li>
 								</li>
 								<li><a href="/news">News</a>
-									<ul class="sub-menu">
-										<li><a href="/news">News</a></li>
 
-									</ul>
 								</li>
 								<li><a href="/contact">Contact</a></li>
 								<li><a href="/shop">Shop</a>
