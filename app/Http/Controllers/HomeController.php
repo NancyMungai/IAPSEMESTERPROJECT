@@ -44,4 +44,14 @@ class HomeController extends Controller
     {
         return view('shop');
     }
+    public function checkout()
+    {
+        return view('checkout');
+    }
+    public function welcome()
+    {
+        return view('welcome');
+    }
+
+
 }

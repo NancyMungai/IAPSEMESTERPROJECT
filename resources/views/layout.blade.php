@@ -59,18 +59,14 @@
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
-								<li class="current-list-item"><a href="#">Home</a>
-									<ul class="sub-menu">
-										<li><a href="index.html">Static Home</a></li>
-										<li><a href="index_2.html">Slider Home</a></li>
-									</ul>
+								<li class="current-list-item"><a href="/welcome">Home</a>
 								</li>
 								<li><a href="/about">About</a></li>
 								</li>
 								<li><a href="/news">News</a>
 									<ul class="sub-menu">
 										<li><a href="/news">News</a></li>
-										<li><a href="/singleNews">Single News</a></li>
+
 									</ul>
 								</li>
 								<li><a href="/contact">Contact</a></li>
