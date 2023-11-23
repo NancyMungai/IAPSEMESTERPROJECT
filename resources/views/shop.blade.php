@@ -20,25 +20,12 @@
 	</div>
 	<!-- end search arewa -->
 
-	<!-- breadcrumb-section -->
-	<div class="breadcrumb-section breadcrumb-bg">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 offset-lg-2 text-center">
-					<div class="breadcrumb-text">
-						<p>Fresh and Organic</p>
-						<h1>Shop</h1>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end breadcrumb section -->
+
 
 	<!-- products -->
 	<div class="product-section mt-150 mb-150">
 		<div class="container">
-        
+
 			<div class="row">
                 <div class="col-md-12">
                     <div class="product-filters">
@@ -51,7 +38,6 @@
                     </div>
                 </div>
             </div>
-
 
 			<div class="row product-lists">
 				<div class="col-lg-4 col-md-6 text-center strawberry">
@@ -217,39 +203,384 @@
 						<p class="product-price"><span></span>Ksh 21,300 </p>
 						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 					</div>
-					</div>
-			
-				<div class="col-lg-4 col-md-6 text-center">
+				</div>
+		
+
+			<div class="col-lg-4 col-md-6 text-center strawberry">
 					<div class="single-product-item">
 						<div class="product-image">
-							<a href="single-product.html"><img src="assets/img/products/product-img-4.jpg" alt=""></a>
+							<a href="single-product.html"><img src="assets/img/products/image14.jpg" alt=""></a>
 						</div>
-						<h3>Avocado</h3>
-						<p class="product-price"><span>Per Kg</span> 50$ </p>
-						<a href="/cart" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+						<h3>Stardust Symphony</h3>
+						<p class="product-price"><span></span>Ksh 9,000 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 text-center">
+			
+
+			<div class="col-lg-4 col-md-6 text-center strawberry">
 					<div class="single-product-item">
 						<div class="product-image">
-							<a href="single-product.html"><img src="assets/img/products/product-img-5.jpg" alt=""></a>
+							<a href="single-product.html"><img src="assets/img/products/image15.jpg" alt=""></a>
 						</div>
-						<h3>Green Apple</h3>
-						<p class="product-price"><span>Per Kg</span> 45$ </p>
-						<a href="/cart" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+						<h3>Celestial Ballet</h3>
+						<p class="product-price"><span></span>Ksh 12,900 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+			
+
+			<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image16.jpg" alt=""></a>
+						</div>
+						<h3>Gental Rain Rhapsody</h3>
+						<p class="product-price"><span></span>Ksh 16,000 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+			
+
+			<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image17.jpg" alt=""></a>
+						</div>
+						<h3>Sunlit Valley Overtune</h3>
+						<p class="product-price"><span></span>Ksh 16,700 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+			
+
+			<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image18.jpg" alt=""></a>
+						</div>
+						<h3>Harbor of Tranquility</h3>
+						<p class="product-price"><span></span>Ksh 25,000 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+		
+			<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image19.jpg" alt=""></a>
+						</div>
+						<h3>Serene Lakeside</h3>
+						<p class="product-price"><span></span>Ksh 19,630 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+		
+			
+			<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image20.jpg" alt=""></a>
+						</div>
+						<h3>Solitary Pine Symphony</h3>
+						<p class="product-price"><span></span>Ksh 23,000 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+		
+
+			<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image21.jpg" alt=""></a>
+						</div>
+						<h3>Hushed Tidal Melody</h3>
+						<p class="product-price"><span></span>Ksh 27,000 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+			
+
+			<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image22.jpg" alt=""></a>
+						</div>
+						<h3>Aquamarine Mirage</h3>
+						<p class="product-price"><span></span>Ksh 30,000 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+			
+
+			<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image23.jpg" alt=""></a>
+						</div>
+						<h3> Emerald Euphoria</h3>
+						<p class="product-price"><span></span>Ksh 27,900 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+			
+
+			<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image24.jpg" alt=""></a>
+						</div>
+						<h3> Serendipitous Embrace</h3>
+						<p class="product-price"><span></span>Ksh 32,000 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+
+			
+				<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image23.jpg" alt=""></a>
+						</div>
+						<h3> Emerald Euphoria</h3>
+						<p class="product-price"><span></span>Ksh 27,000 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image29.jpg" alt=""></a>
+						</div>
+						<h3> Swahili Sparkle</h3>
+						<p class="product-price"><span></span>Ksh 900 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image27.jpg" alt=""></a>
+						</div>
+						<h3> African Sunburst</h3>
+						<p class="product-price"><span></span>Ksh 7,800 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image28.jpg" alt=""></a>
+						</div>
+						<h3> Ethio Elegance</h3>
+						<p class="product-price"><span></span>Ksh 4,900 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image30.jpg" alt=""></a>
+						</div>
+						<h3> Bantu BeadWorks</h3>
+						<p class="product-price"><span></span>Ksh 1,500 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image31.jpg" alt=""></a>
+						</div>
+						<h3> Safari Shimmer</h3>
+						<p class="product-price"><span></span>Ksh 400 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image32.jpg" alt=""></a>
+						</div>
+						<h3> Maasai Mosaic</h3>
+						<p class="product-price"><span></span>Ksh 700 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image34.jpg" alt=""></a>
+						</div>
+						<h3> Necklace Nouveau</h3>
+						<p class="product-price"><span></span>Ksh 200 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image33.jpg" alt=""></a>
+						</div>
+						<h3> Nubians Night</h3>
+						<p class="product-price"><span></span>Ksh 450 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image35.jpg" alt=""></a>
+						</div>
+						<h3> Afro-Aura</h3>
+						<p class="product-price"><span></span>Ksh 300 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image36.jpg" alt=""></a>
+						</div>
+						<h3> Safari Savvy</h3>
+						<p class="product-price"><span></span>Ksh 350 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image37.jpg" alt=""></a>
+						</div>
+						<h3> Congo Crest</h3>
+						<p class="product-price"><span></span>Ksh 120 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image38.jpg" alt=""></a>
+						</div>
+						<h3> Ndebele Nectar</h3>
+						<p class="product-price"><span></span>Ksh 300 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image39.jpg" alt=""></a>
+						</div>
+						<h3> Zazibar Zest</h3>
+						<p class="product-price"><span></span>Ksh 100 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image40.jpg" alt=""></a>
+						</div>
+						<h3> Kilimanjaro Drops</h3>
+						<p class="product-price"><span></span>Ksh 200 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image42.jpg" alt=""></a>
+						</div>
+						<h3> Maasai Mara Marvels</h3>
+						<p class="product-price"><span></span>Ksh 380 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image43.jpg" alt=""></a>
+						</div>
+						<h3> Kalahari Charms</h3>
+						<p class="product-price"><span></span>Ksh 100 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image44.jpg" alt=""></a>
+						</div>
+						<h3>Tanzania Twighlights</h3>
+						<p class="product-price"><span></span>Ksh 700 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 text-center strawberry">
 					<div class="single-product-item">
 						<div class="product-image">
-							<a href="single-product.html"><img src="assets/img/products/product-img-6.jpg" alt=""></a>
+							<a href="single-product.html"><img src="assets/img/products/image45.jpg" alt=""></a>
 						</div>
-						<h3>Strawberry</h3>
-						<p class="product-price"><span>Per Kg</span> 80$ </p>
-						<a href="/cart" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+						<h3> Malawi Marvels</h3>
+						<p class="product-price"><span></span>Ksh 300 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 					</div>
 				</div>
+
+				<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image46.jpg" alt=""></a>
+						</div>
+						<h3> Serengeti Studs</h3>
+						<p class="product-price"><span></span>Ksh 400 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image47.jpg" alt=""></a>
+						</div>
+						<h3> Moroccan Glamour</h3>
+						<p class="product-price"><span></span>Ksh 700 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image23.jpg" alt=""></a>
+						</div>
+						<h3> Emerald Euphoria</h3>
+						<p class="product-price"><span></span>Ksh 27,000 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+
 			</div>
+
+			
 
 			<div class="row">
 				<div class="col-lg-12 text-center">
