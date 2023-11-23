@@ -114,7 +114,8 @@
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="section-title">
 						<h3><span class="orange-text">Our</span> Products</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, fuga quas itaque eveniet beatae optio.</p>
+						<p>Elevate your space with our curated collection at Artful Alchemy. From classic paintings to contemporary sculptures, we offer a diverse array of art that sparks inspiration. Explore and find the perfect piece
+                            to express your unique style</p>
 					</div>
 				</div>
 			</div>
@@ -165,7 +166,7 @@
                     	<div class="price-box">
                         	<div class="inner-price">
                                 <span class="price">
-                                    <strong>30%</strong> <br> off per kg
+                                    <strong>3in1</strong> <br> Offer
                                 </span>
                             </div>
                         </div>
@@ -175,8 +176,8 @@
                 <!--Content Column-->
                 <div class="content-column col-lg-6">
 					<h3><span class="orange-text">Deal</span> of the month</h3>
-                    <h4>Hikan Strwaberry</h4>
-                    <div class="text">Quisquam minus maiores repudiandae nobis, minima saepe id, fugit ullam similique! Beatae, minima quisquam molestias facere ea. Perspiciatis unde omnis iste natus error sit voluptatem accusant</div>
+                    <h4>THREE FOR THE PRICE OF ONE</h4>
+                    <div class="text">Triple the beauty, triple the savings! Enjoy three stunning paintings for the price of one. Elevate your space with this limited-time offer and surround yourself with captivating art. Don't miss out on this exclusive opportunity at Artful Alchemy.</div>
                     <!--Countdown Timer-->
                     <div class="time-counter"><div class="time-countdown clearfix" data-countdown="2020/2/01"><div class="counter-column"><div class="inner"><span class="count">00</span>Days</div></div> <div class="counter-column"><div class="inner"><span class="count">00</span>Hours</div></div>  <div class="counter-column"><div class="inner"><span class="count">00</span>Mins</div></div>  <div class="counter-column"><div class="inner"><span class="count">00</span>Secs</div></div></div></div>
                 	<a href="/cart" class="cart-btn mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
@@ -247,15 +248,18 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-12">
 					<div class="abt-bg">
-						<a href="https://www.youtube.com/watch?v=DBLlFWYcIGQ" class="video-play-btn popup-youtube"><i class="fas fa-play"></i></a>
+
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-12">
 					<div class="abt-text">
-						<p class="top-sub">Since Year 1999</p>
-						<h2>We are <span class="orange-text">Fruitkha</span></h2>
-						<p>Etiam vulputate ut augue vel sodales. In sollicitudin neque et massa porttitor vestibulum ac vel nisi. Vestibulum placerat eget dolor sit amet posuere. In ut dolor aliquet, aliquet sapien sed, interdum velit. Nam eu molestie lorem.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente facilis illo repellat veritatis minus, et labore minima mollitia qui ducimus.</p>
+						<p class="top-sub">Since Year 2004</p>
+						<h2>We are <span class="orange-text">Artful Alchemy</span></h2>
+						<p>Where art transforms into something extraordinary.</p>
+						<p>Immerse yourself in a captivating world of handcrafted art, where creativity knows no bounds.
+                            Our vibrant collection spans paintings, sculptures, jewelry, pottery, and more, each piece a
+                             testament to the transformative power of art. Discover the artist within and unleash your creativity
+                             through our enriching art classes and workshops. Step into Artful Alchemy and experience the magic of art.</p>
 						<a href="/about" class="boxed-btn mt-4">know more</a>
 					</div>
 				</div>
