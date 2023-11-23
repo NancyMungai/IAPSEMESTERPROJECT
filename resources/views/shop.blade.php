@@ -61,10 +61,13 @@
 						</div>
 						<h3>Togetherness</h3>
 						<p class="product-price"><span></span> Ksh 15,000 </p>
+						<form action="/add_to_cart" method = POST>
+							@csrf
+						<input type= "hidden"  , name= "product-name" , value = "product-name" >
 						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+						</form>
 					</div>
 				</div>
-
 
 
 				<div class="col-lg-4 col-md-6 text-center berry">

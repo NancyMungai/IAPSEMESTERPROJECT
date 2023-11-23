@@ -3,7 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-use App\Http\Controllers\ProductsController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -45,4 +45,5 @@ Route::get('/cart', [App\Http\Controllers\HomeController::class, 'cart'])->name(
 Route::get('/checkout', [App\Http\Controllers\HomeController::class, 'checkout'])->name('checkout');
 Route::get('/news', [App\Http\Controllers\HomeController::class, 'news'])->name('news');
 Route::get('/singleNews', [App\Http\Controllers\HomeController::class, 'singleNews'])->name('singleNews');
-Route::get('/shop', [App\Http\Controllers\ProductsController::class, 'add_cart'])->name('shop');
+Route::get('/detail/{productname}', [App\Http\Controllers\ProductController::class, 'detail'])->name('detail');
+Route::post('add_to_cart', [App\Http\Controllers\ProductController::class, 'addToCart'])->name('addToCart');
