@@ -10,10 +10,10 @@
 					<div class="col-md-12 col-lg-7 offset-lg-1 offset-xl-0">
 						<div class="hero-text">
 							<div class="hero-text-tablecell">
-								<p class="subtitle">Fresh & Organic</p>
-								<h1>Delicious Seasonal Fruits</h1>
+								<p class="subtitle">Artful Alchemy</p>
+								<h1>A Kaleidoscope of Creativity</h1>
 								<div class="hero-btns">
-									<a href="/shop" class="boxed-btn">Fruit Collection</a>
+									<a href="/shop" class="boxed-btn">Art Collection</a>
 									<a href="/contact" class="bordered-btn">Contact Us</a>
 								</div>
 							</div>
@@ -29,8 +29,8 @@
 					<div class="col-lg-10 offset-lg-1 text-center">
 						<div class="hero-text">
 							<div class="hero-text-tablecell">
-								<p class="subtitle">Fresh Everyday</p>
-								<h1>100% Organic Collection</h1>
+								<p class="subtitle">Diverse selection</p>
+								<h1>A Palette for Every Wall</h1>
 								<div class="hero-btns">
 									<a href="/shop" class="boxed-btn">Visit Shop</a>
 									<a href="/contact" class="bordered-btn">Contact Us</a>
@@ -48,8 +48,8 @@
 					<div class="col-lg-10 offset-lg-1 text-right">
 						<div class="hero-text">
 							<div class="hero-text-tablecell">
-								<p class="subtitle">Mega Sale Going On!</p>
-								<h1>Get December Discount</h1>
+								<p class="subtitle">New Collection</p>
+								<h1>Elevate Your Space with Inspired Art</h1>
 								<div class="hero-btns">
 									<a href="/shop" class="boxed-btn">Visit Shop</a>
 									<a href="/contact" class="bordered-btn">Contact Us</a>
