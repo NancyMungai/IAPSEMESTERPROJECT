@@ -163,7 +163,7 @@
 						<div class="product-image">
 							<a href="single-product.html"><img src="assets/img/products/image10.jpg" alt=""></a>
 						</div>
-						<h3>Galatic Mrelody</h3>
+						<h3>Galatic Melody</h3>
 						<p class="product-price"><span></span>Ksh 20,000 </p>
 						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 					</div>
