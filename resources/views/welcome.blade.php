@@ -75,7 +75,7 @@
 						</div>
 						<div class="content">
 							<h3>Free Shipping</h3>
-							<p>When order over $75</p>
+							<p>When order over KSH 20,000</p>
 						</div>
 					</div>
 				</div>
@@ -127,7 +127,7 @@
 							<a href="single-product.html"><img src="assets/img/products/product-img-1.jpg" alt=""></a>
 						</div>
 						<h3>Chronicles of Chroma</h3>
-						<p class="product-price"><span>Per Kg</span> 85$ </p>
+						<p class="product-price"><span>Per Kg</span> KSH 85,000  </p>
 						<a href="/cart" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 					</div>
 				</div>
@@ -137,7 +137,7 @@
 							<a href="single-product.html"><img src="assets/img/products/product-img-2.jpg" alt=""></a>
 						</div>
 						<h3>Silhouette Sonata</h3>
-						<p class="product-price"><span>Per Kg</span> 70$ </p>
+						<p class="product-price"><span>Per Kg</span> KSH 70,000 </p>
 						<a href="/cart" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 					</div>
 				</div>
@@ -147,7 +147,7 @@
 							<a href="single-product.html"><img src="assets/img/products/product-img-3.jpg" alt=""></a>
 						</div>
 						<h3>Ephemeral Bonds</h3>
-						<p class="product-price"><span>Per Kg</span> 35$ </p>
+						<p class="product-price"><span>Per Kg</span> KSH 35,000</p>
 						<a href="/cart" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 					</div>
 				</div>
@@ -215,20 +215,6 @@
 								<h3>Marie Wanjiru <span>Art Visionary</span></h3>
 								<p class="testimonial-body">
 									" Meet Marie, our Art Visionary at Artful Alchemy. With an intuitive eye for the extraordinary, Marie curates our collection with an unwavering dedication to diversity and innovation. Her passion for connecting art and emotion is evident in every piece carefully selected for our gallery. Step into the world Marie has crafted, where each stroke and sculpture tells a unique story, inviting you to explore the boundless realms of creativity"
-								</p>
-								<div class="last-icon">
-									<i class="fas fa-quote-right"></i>
-								</div>
-							</div>
-						</div>
-						<div class="single-testimonial-slider">
-							<div class="client-avater">
-								<img src="assets/img/avaters/avatar3.png" alt="">
-							</div>
-							<div class="client-meta">
-								<h3>Jacob Sikim <span>Gallery Maestro</span></h3>
-								<p class="testimonial-body">
-									" Meet our Gallery Maestro. With a keen eye for artistic harmony, she orchestrates a symphony of diverse pieces that dance together in perfect rhythm. Under her guiding baton, Artful Alchemy becomes a sanctuary where every stroke and sculpture plays a vital note in the visual melody. Step into the gallery and experience the masterful curation of our Gallery Maestro."
 								</p>
 								<div class="last-icon">
 									<i class="fas fa-quote-right"></i>
