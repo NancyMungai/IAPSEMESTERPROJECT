@@ -26,8 +26,8 @@
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="breadcrumb-text">
-						<p>Fresh and Organic</p>
-						<h1>Check Out Product</h1>
+						<p> Elevate Your Collection with Effortless Checkout</p>
+						<h1>Check Out </h1>
 					</div>
 				</div>
 			</div>
@@ -117,30 +117,30 @@
 									<td>Total</td>
 								</tr>
 								<tr>
-									<td>Strawberry</td>
-									<td>$85.00</td>
+									<td>Chronicles of Chroma</td>
+									<td>KSH 85,000</td>
 								</tr>
 								<tr>
-									<td>Berry</td>
-									<td>$70.00</td>
+									<td>Silhouette Sonata</td>
+									<td>KSH 70,000</td>
 								</tr>
 								<tr>
-									<td>Lemon</td>
-									<td>$35.00</td>
+									<td>Ephemeral Bonds</td>
+									<td>KSH 35,000</td>
 								</tr>
 							</tbody>
 							<tbody class="checkout-details">
 								<tr>
 									<td>Subtotal</td>
-									<td>$190</td>
+									<td></td>
 								</tr>
 								<tr>
 									<td>Shipping</td>
-									<td>$50</td>
+									<td>KSH 1,000</td>
 								</tr>
 								<tr>
 									<td>Total</td>
-									<td>$240</td>
+									<td>KSH 191,000</td>
 								</tr>
 							</tbody>
 						</table>

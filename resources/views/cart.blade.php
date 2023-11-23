@@ -26,8 +26,8 @@
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="breadcrumb-text">
-						<p>Fresh and Organic</p>
-						<h1>Cart</h1>
+						<p>Favorite Art Finds Its Place – Carting Creativity</p>
+						<h1>Your Cart</h1>
 					</div>
 				</div>
 			</div>
@@ -48,34 +48,34 @@
 									<th class="product-image">Product Image</th>
 									<th class="product-name">Name</th>
 									<th class="product-price">Price</th>
-									<th class="product-quantity">Quantity</th>
-									<th class="product-total">Total</th>
+									{{-- <th class="product-quantity">Quantity</th>
+									<th class="product-total">Total</th> --}}
 								</tr>
 							</thead>
 							<tbody>
 								<tr class="table-body-row">
 									<td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
 									<td class="product-image"><img src="assets/img/products/product-img-1.jpg" alt=""></td>
-									<td class="product-name">Strawberry</td>
-									<td class="product-price">$85</td>
-									<td class="product-quantity"><input type="number" placeholder="0"></td>
-									<td class="product-total">1</td>
+									<td class="product-name">Chronicles of Chroma</td>
+									<td class="product-price">KSH 85,000</td>
+									{{-- <td class="product-quantity"><input type="number" placeholder="0"></td>
+									<td class="product-total">1</td> --}}
 								</tr>
 								<tr class="table-body-row">
 									<td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
 									<td class="product-image"><img src="assets/img/products/product-img-2.jpg" alt=""></td>
-									<td class="product-name">Berry</td>
-									<td class="product-price">$70</td>
-									<td class="product-quantity"><input type="number" placeholder="0"></td>
-									<td class="product-total">1</td>
+									<td class="product-name">Silhouette Sonata</td>
+									<td class="product-price">KSH 70,000</td>
+									{{-- <td class="product-quantity"><input type="number" placeholder="0"></td>
+									<td class="product-total">1</td> --}}
 								</tr>
 								<tr class="table-body-row">
 									<td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
 									<td class="product-image"><img src="assets/img/products/product-img-3.jpg" alt=""></td>
-									<td class="product-name">Lemon</td>
-									<td class="product-price">$35</td>
-									<td class="product-quantity"><input type="number" placeholder="0"></td>
-									<td class="product-total">1</td>
+									<td class="product-name">Ephemeral Bonds</td>
+									<td class="product-price">KSH 35,000</td>
+									{{-- <td class="product-quantity"><input type="number" placeholder="0"></td>
+									<td class="product-total">1</td> --}}
 								</tr>
 							</tbody>
 						</table>
@@ -94,15 +94,15 @@
 							<tbody>
 								<tr class="total-data">
 									<td><strong>Subtotal: </strong></td>
-									<td>$500</td>
+									<td>KSH 190,000</td>
 								</tr>
 								<tr class="total-data">
 									<td><strong>Shipping: </strong></td>
-									<td>$45</td>
+									<td>1,000</td>
 								</tr>
 								<tr class="total-data">
 									<td><strong>Total: </strong></td>
-									<td>$545</td>
+									<td>KSH 191,000</td>
 								</tr>
 							</tbody>
 						</table>
