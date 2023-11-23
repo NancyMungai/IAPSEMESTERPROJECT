@@ -126,7 +126,7 @@
 						<div class="product-image">
 							<a href="single-product.html"><img src="assets/img/products/product-img-1.jpg" alt=""></a>
 						</div>
-						<h3>Strawberry</h3>
+						<h3>Chronicles of Chroma</h3>
 						<p class="product-price"><span>Per Kg</span> 85$ </p>
 						<a href="/cart" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 					</div>
@@ -136,7 +136,7 @@
 						<div class="product-image">
 							<a href="single-product.html"><img src="assets/img/products/product-img-2.jpg" alt=""></a>
 						</div>
-						<h3>Berry</h3>
+						<h3>Silhouette Sonata</h3>
 						<p class="product-price"><span>Per Kg</span> 70$ </p>
 						<a href="/cart" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 					</div>
@@ -146,7 +146,7 @@
 						<div class="product-image">
 							<a href="single-product.html"><img src="assets/img/products/product-img-3.jpg" alt=""></a>
 						</div>
-						<h3>Lemon</h3>
+						<h3>Ephemeral Bonds</h3>
 						<p class="product-price"><span>Per Kg</span> 35$ </p>
 						<a href="/cart" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 					</div>
@@ -198,9 +198,9 @@
 								<img src="assets/img/avaters/avatar1.png" alt="">
 							</div>
 							<div class="client-meta">
-								<h3>Saira Hakim <span>Local shop owner</span></h3>
+								<h3>Keni Wambui <span>Curator-in-Chief</span></h3>
 								<p class="testimonial-body">
-									" Sed ut perspiciatis unde omnis iste natus error veritatis et  quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
+									" Meet one of the creative souls behind Artful Alchemy, Keni. A visionary curator with a passion for diverse expression, she selects each piece to weave a unique tapestry of art. Join us in exploring the world Keni has crafted, where tradition meets innovation and imagination knows no bounds"
 								</p>
 								<div class="last-icon">
 									<i class="fas fa-quote-right"></i>
@@ -212,9 +212,9 @@
 								<img src="assets/img/avaters/avatar2.png" alt="">
 							</div>
 							<div class="client-meta">
-								<h3>David Niph <span>Local shop owner</span></h3>
+								<h3>Marie Wanjiru <span>Art Visionary</span></h3>
 								<p class="testimonial-body">
-									" Sed ut perspiciatis unde omnis iste natus error veritatis et  quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
+									" Meet Marie, our Art Visionary at Artful Alchemy. With an intuitive eye for the extraordinary, Marie curates our collection with an unwavering dedication to diversity and innovation. Her passion for connecting art and emotion is evident in every piece carefully selected for our gallery. Step into the world Marie has crafted, where each stroke and sculpture tells a unique story, inviting you to explore the boundless realms of creativity"
 								</p>
 								<div class="last-icon">
 									<i class="fas fa-quote-right"></i>
@@ -226,9 +226,9 @@
 								<img src="assets/img/avaters/avatar3.png" alt="">
 							</div>
 							<div class="client-meta">
-								<h3>Jacob Sikim <span>Local shop owner</span></h3>
+								<h3>Jacob Sikim <span>Gallery Maestro</span></h3>
 								<p class="testimonial-body">
-									" Sed ut perspiciatis unde omnis iste natus error veritatis et  quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
+									" Meet our Gallery Maestro. With a keen eye for artistic harmony, she orchestrates a symphony of diverse pieces that dance together in perfect rhythm. Under her guiding baton, Artful Alchemy becomes a sanctuary where every stroke and sculpture plays a vital note in the visual melody. Step into the gallery and experience the masterful curation of our Gallery Maestro."
 								</p>
 								<div class="last-icon">
 									<i class="fas fa-quote-right"></i>
@@ -271,7 +271,7 @@
 	<!-- shop banner -->
 	<section class="shop-banner">
     	<div class="container">
-        	<h3>December sale is on! <br> with big <span class="orange-text">Discount...</span></h3>
+        	<h3>This Months sale is on! <br> with big <span class="orange-text">Discounts...</span></h3>
             <div class="sale-percent"><span>Sale! <br> Upto</span>50% <span>off</span></div>
             <a href="/shop" class="cart-btn btn-lg">Shop Now</a>
         </div>
@@ -286,7 +286,7 @@
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="section-title">
 						<h3><span class="orange-text">Our</span> News</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, fuga quas itaque eveniet beatae optio.</p>
+						<p>Dive into the latest artful revelations! Our News Section is a vibrant canvas showcasing the pulse of creativity at Artful Alchemy. Discover featured artists, unveil upcoming exhibitions, and stay connected with the dynamic world of art. Explore the stories behind the masterpieces and be the first to witness the unfolding chapters in our artistic journey</p>
 					</div>
 				</div>
 			</div>
@@ -296,12 +296,12 @@
 					<div class="single-latest-news">
 						<a href="/singleNews"><div class="latest-news-bg news-bg-1"></div></a>
 						<div class="news-text-box">
-							<h3><a href="/singleNews">You will vainly look for fruit on it in autumn.</a></h3>
+							<h3><a href="/singleNews">Timeless Elegance Unveiled: Journey into the Classics at Artful Alchemy</a></h3>
 							<p class="blog-meta">
-								<span class="author"><i class="fas fa-user"></i> Admin</span>
+								<span class="author"><i class="fas fa-user"></i> Mansa</span>
 								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2019</span>
 							</p>
-							<p class="excerpt">Vivamus lacus enim, pulvinar vel nulla sed, scelerisque rhoncus nisi. Praesent vitae mattis nunc, egestas viverra eros.</p>
+							<p class="excerpt">Embark on a journey through time with our latest addition to the gallery—classic masterpieces that transcend eras. Immerse yourself in the elegance of classical art, where every stroke tells a timeless tale. Explore the news section for a glimpse into the heritage of artistic excellence at Artful Alchemy</p>
 							<a href="/singleNews" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
 						</div>
 					</div>
@@ -310,12 +310,13 @@
 					<div class="single-latest-news">
 						<a href="/singleNews"><div class="latest-news-bg news-bg-2"></div></a>
 						<div class="news-text-box">
-							<h3><a href="/singleNews">A man's worth has its season, like tomato.</a></h3>
+							<h3><a href="/singleNews">Abstract Realms Unveiled: A Kaleidoscope of Artistic Expression</a></h3>
 							<p class="blog-meta">
-								<span class="author"><i class="fas fa-user"></i> Admin</span>
+								<span class="author"><i class="fas fa-user"></i> Jacob</span>
 								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2019</span>
 							</p>
-							<p class="excerpt">Vivamus lacus enim, pulvinar vel nulla sed, scelerisque rhoncus nisi. Praesent vitae mattis nunc, egestas viverra eros.</p>
+							<p class="excerpt">In this captivating showcase, abstract art takes center stage, pushing the boundaries of form, color, and emotion. Each piece is a unique journey, a visual symphony of shapes and shades that sparks curiosity
+                                 and invites interpretation.</p>
 							<a href="/singleNews" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
 						</div>
 					</div>
@@ -324,12 +325,13 @@
 					<div class="single-latest-news">
 						<a href="/singleNews"><div class="latest-news-bg news-bg-3"></div></a>
 						<div class="news-text-box">
-							<h3><a href="/singleNews">Good thoughts bear good fresh juicy fruit.</a></h3>
+							<h3><a href="/singleNews">Shadows and Light: The Charcoal Chronicles Unfold at Artful Alchemy.</a></h3>
 							<p class="blog-meta">
-								<span class="author"><i class="fas fa-user"></i> Admin</span>
+								<span class="author"><i class="fas fa-user"></i> River .M.</span>
 								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2019</span>
 							</p>
-							<p class="excerpt">Vivamus lacus enim, pulvinar vel nulla sed, scelerisque rhoncus nisi. Praesent vitae mattis nunc, egestas viverra eros.</p>
+							<p class="excerpt">"Shadows and Light" brings forth the raw and evocative power of charcoal, where every stroke tells a story and every smudge reveals a depth of emotion. From bold contrasts to delicate shades, each piece is a testament to the
+                                 versatility and expressiveness of this timeless medium.</p>
 							<a href="/singleNews" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
 						</div>
 					</div>
