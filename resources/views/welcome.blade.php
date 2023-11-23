@@ -75,7 +75,7 @@
 						</div>
 						<div class="content">
 							<h3>Free Shipping</h3>
-							<p>When order over $75</p>
+							<p>When order over KSH 20,000</p>
 						</div>
 					</div>
 				</div>
@@ -114,7 +114,8 @@
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="section-title">
 						<h3><span class="orange-text">Our</span> Products</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, fuga quas itaque eveniet beatae optio.</p>
+						<p>Elevate your space with our curated collection at Artful Alchemy. From classic paintings to contemporary sculptures, we offer a diverse array of art that sparks inspiration. Explore and find the perfect piece
+                            to express your unique style</p>
 					</div>
 				</div>
 			</div>
@@ -125,8 +126,8 @@
 						<div class="product-image">
 							<a href="single-product.html"><img src="assets/img/products/product-img-1.jpg" alt=""></a>
 						</div>
-						<h3>Strawberry</h3>
-						<p class="product-price"><span>Per Kg</span> 85$ </p>
+						<h3>Chronicles of Chroma</h3>
+						<p class="product-price"><span>Per Kg</span> KSH 85,000  </p>
 						<a href="/cart" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 					</div>
 				</div>
@@ -135,8 +136,8 @@
 						<div class="product-image">
 							<a href="single-product.html"><img src="assets/img/products/product-img-2.jpg" alt=""></a>
 						</div>
-						<h3>Berry</h3>
-						<p class="product-price"><span>Per Kg</span> 70$ </p>
+						<h3>Silhouette Sonata</h3>
+						<p class="product-price"><span>Per Kg</span> KSH 70,000 </p>
 						<a href="/cart" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 					</div>
 				</div>
@@ -145,8 +146,8 @@
 						<div class="product-image">
 							<a href="single-product.html"><img src="assets/img/products/product-img-3.jpg" alt=""></a>
 						</div>
-						<h3>Lemon</h3>
-						<p class="product-price"><span>Per Kg</span> 35$ </p>
+						<h3>Ephemeral Bonds</h3>
+						<p class="product-price"><span>Per Kg</span> KSH 35,000</p>
 						<a href="/cart" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 					</div>
 				</div>
@@ -165,7 +166,7 @@
                     	<div class="price-box">
                         	<div class="inner-price">
                                 <span class="price">
-                                    <strong>30%</strong> <br> off per kg
+                                    <strong>3in1</strong> <br> Offer
                                 </span>
                             </div>
                         </div>
@@ -175,8 +176,8 @@
                 <!--Content Column-->
                 <div class="content-column col-lg-6">
 					<h3><span class="orange-text">Deal</span> of the month</h3>
-                    <h4>Hikan Strwaberry</h4>
-                    <div class="text">Quisquam minus maiores repudiandae nobis, minima saepe id, fugit ullam similique! Beatae, minima quisquam molestias facere ea. Perspiciatis unde omnis iste natus error sit voluptatem accusant</div>
+                    <h4>THREE FOR THE PRICE OF ONE</h4>
+                    <div class="text">Triple the beauty, triple the savings! Enjoy three stunning paintings for the price of one. Elevate your space with this limited-time offer and surround yourself with captivating art. Don't miss out on this exclusive opportunity at Artful Alchemy.</div>
                     <!--Countdown Timer-->
                     <div class="time-counter"><div class="time-countdown clearfix" data-countdown="2020/2/01"><div class="counter-column"><div class="inner"><span class="count">00</span>Days</div></div> <div class="counter-column"><div class="inner"><span class="count">00</span>Hours</div></div>  <div class="counter-column"><div class="inner"><span class="count">00</span>Mins</div></div>  <div class="counter-column"><div class="inner"><span class="count">00</span>Secs</div></div></div></div>
                 	<a href="/cart" class="cart-btn mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
@@ -197,9 +198,9 @@
 								<img src="assets/img/avaters/avatar1.png" alt="">
 							</div>
 							<div class="client-meta">
-								<h3>Saira Hakim <span>Local shop owner</span></h3>
+								<h3>Keni Wambui <span>Curator-in-Chief</span></h3>
 								<p class="testimonial-body">
-									" Sed ut perspiciatis unde omnis iste natus error veritatis et  quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
+									" Meet one of the creative souls behind Artful Alchemy, Keni. A visionary curator with a passion for diverse expression, she selects each piece to weave a unique tapestry of art. Join us in exploring the world Keni has crafted, where tradition meets innovation and imagination knows no bounds"
 								</p>
 								<div class="last-icon">
 									<i class="fas fa-quote-right"></i>
@@ -211,23 +212,9 @@
 								<img src="assets/img/avaters/avatar2.png" alt="">
 							</div>
 							<div class="client-meta">
-								<h3>David Niph <span>Local shop owner</span></h3>
+								<h3>Marie Wanjiru <span>Art Visionary</span></h3>
 								<p class="testimonial-body">
-									" Sed ut perspiciatis unde omnis iste natus error veritatis et  quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
-								</p>
-								<div class="last-icon">
-									<i class="fas fa-quote-right"></i>
-								</div>
-							</div>
-						</div>
-						<div class="single-testimonial-slider">
-							<div class="client-avater">
-								<img src="assets/img/avaters/avatar3.png" alt="">
-							</div>
-							<div class="client-meta">
-								<h3>Jacob Sikim <span>Local shop owner</span></h3>
-								<p class="testimonial-body">
-									" Sed ut perspiciatis unde omnis iste natus error veritatis et  quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
+									" Meet Marie, our Art Visionary at Artful Alchemy. With an intuitive eye for the extraordinary, Marie curates our collection with an unwavering dedication to diversity and innovation. Her passion for connecting art and emotion is evident in every piece carefully selected for our gallery. Step into the world Marie has crafted, where each stroke and sculpture tells a unique story, inviting you to explore the boundless realms of creativity"
 								</p>
 								<div class="last-icon">
 									<i class="fas fa-quote-right"></i>
@@ -247,15 +234,18 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-12">
 					<div class="abt-bg">
-						<a href="https://www.youtube.com/watch?v=DBLlFWYcIGQ" class="video-play-btn popup-youtube"><i class="fas fa-play"></i></a>
+
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-12">
 					<div class="abt-text">
-						<p class="top-sub">Since Year 1999</p>
-						<h2>We are <span class="orange-text">Fruitkha</span></h2>
-						<p>Etiam vulputate ut augue vel sodales. In sollicitudin neque et massa porttitor vestibulum ac vel nisi. Vestibulum placerat eget dolor sit amet posuere. In ut dolor aliquet, aliquet sapien sed, interdum velit. Nam eu molestie lorem.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente facilis illo repellat veritatis minus, et labore minima mollitia qui ducimus.</p>
+						<p class="top-sub">Since Year 2004</p>
+						<h2>We are <span class="orange-text">Artful Alchemy</span></h2>
+						<p>Where art transforms into something extraordinary.</p>
+						<p>Immerse yourself in a captivating world of handcrafted art, where creativity knows no bounds.
+                            Our vibrant collection spans paintings, sculptures, jewelry, pottery, and more, each piece a
+                             testament to the transformative power of art. Discover the artist within and unleash your creativity
+                             through our enriching art classes and workshops. Step into Artful Alchemy and experience the magic of art.</p>
 						<a href="/about" class="boxed-btn mt-4">know more</a>
 					</div>
 				</div>
@@ -267,7 +257,7 @@
 	<!-- shop banner -->
 	<section class="shop-banner">
     	<div class="container">
-        	<h3>December sale is on! <br> with big <span class="orange-text">Discount...</span></h3>
+        	<h3>This Months sale is on! <br> with big <span class="orange-text">Discounts...</span></h3>
             <div class="sale-percent"><span>Sale! <br> Upto</span>50% <span>off</span></div>
             <a href="/shop" class="cart-btn btn-lg">Shop Now</a>
         </div>
@@ -282,7 +272,7 @@
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="section-title">
 						<h3><span class="orange-text">Our</span> News</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, fuga quas itaque eveniet beatae optio.</p>
+						<p>Dive into the latest artful revelations! Our News Section is a vibrant canvas showcasing the pulse of creativity at Artful Alchemy. Discover featured artists, unveil upcoming exhibitions, and stay connected with the dynamic world of art. Explore the stories behind the masterpieces and be the first to witness the unfolding chapters in our artistic journey</p>
 					</div>
 				</div>
 			</div>
@@ -292,12 +282,12 @@
 					<div class="single-latest-news">
 						<a href="/singleNews"><div class="latest-news-bg news-bg-1"></div></a>
 						<div class="news-text-box">
-							<h3><a href="/singleNews">You will vainly look for fruit on it in autumn.</a></h3>
+							<h3><a href="/singleNews">Timeless Elegance Unveiled: Journey into the Classics at Artful Alchemy</a></h3>
 							<p class="blog-meta">
-								<span class="author"><i class="fas fa-user"></i> Admin</span>
+								<span class="author"><i class="fas fa-user"></i> Mansa</span>
 								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2019</span>
 							</p>
-							<p class="excerpt">Vivamus lacus enim, pulvinar vel nulla sed, scelerisque rhoncus nisi. Praesent vitae mattis nunc, egestas viverra eros.</p>
+							<p class="excerpt">Embark on a journey through time with our latest addition to the gallery—classic masterpieces that transcend eras. Immerse yourself in the elegance of classical art, where every stroke tells a timeless tale. Explore the news section for a glimpse into the heritage of artistic excellence at Artful Alchemy</p>
 							<a href="/singleNews" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
 						</div>
 					</div>
@@ -306,12 +296,13 @@
 					<div class="single-latest-news">
 						<a href="/singleNews"><div class="latest-news-bg news-bg-2"></div></a>
 						<div class="news-text-box">
-							<h3><a href="/singleNews">A man's worth has its season, like tomato.</a></h3>
+							<h3><a href="/singleNews">Abstract Realms Unveiled: A Kaleidoscope of Artistic Expression</a></h3>
 							<p class="blog-meta">
-								<span class="author"><i class="fas fa-user"></i> Admin</span>
+								<span class="author"><i class="fas fa-user"></i> Jacob</span>
 								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2019</span>
 							</p>
-							<p class="excerpt">Vivamus lacus enim, pulvinar vel nulla sed, scelerisque rhoncus nisi. Praesent vitae mattis nunc, egestas viverra eros.</p>
+							<p class="excerpt">In this captivating showcase, abstract art takes center stage, pushing the boundaries of form, color, and emotion. Each piece is a unique journey, a visual symphony of shapes and shades that sparks curiosity
+                                 and invites interpretation.</p>
 							<a href="/singleNews" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
 						</div>
 					</div>
@@ -320,12 +311,13 @@
 					<div class="single-latest-news">
 						<a href="/singleNews"><div class="latest-news-bg news-bg-3"></div></a>
 						<div class="news-text-box">
-							<h3><a href="/singleNews">Good thoughts bear good fresh juicy fruit.</a></h3>
+							<h3><a href="/singleNews">Shadows and Light: The Charcoal Chronicles Unfold at Artful Alchemy.</a></h3>
 							<p class="blog-meta">
-								<span class="author"><i class="fas fa-user"></i> Admin</span>
+								<span class="author"><i class="fas fa-user"></i> River .M.</span>
 								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2019</span>
 							</p>
-							<p class="excerpt">Vivamus lacus enim, pulvinar vel nulla sed, scelerisque rhoncus nisi. Praesent vitae mattis nunc, egestas viverra eros.</p>
+							<p class="excerpt">"Shadows and Light" brings forth the raw and evocative power of charcoal, where every stroke tells a story and every smudge reveals a depth of emotion. From bold contrasts to delicate shades, each piece is a testament to the
+                                 versatility and expressiveness of this timeless medium.</p>
 							<a href="/singleNews" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
 						</div>
 					</div>
