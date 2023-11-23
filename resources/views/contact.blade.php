@@ -41,7 +41,8 @@
 				<div class="col-lg-8 mb-5 mb-lg-0">
 					<div class="form-title">
 						<h2>Have you any question?</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, ratione! Laboriosam est, assumenda. Perferendis, quo alias quaerat aliquid. Corporis ipsum minus voluptate? Dolore, esse natus!</p>
+						<p>Reach out, connect, and let's create together! Our team
+                             at Artful Alchemy welcomes your inquiries, thoughts, and collaborations. Whether you're an artist seeking a canvas or an art lover with questions, our doors are open. Drop us a line, and let the conversation begin!</p>
 					</div>
 				 	<div id="form_status"></div>
 					<div class="contact-form">
@@ -64,7 +65,7 @@
 					<div class="contact-form-wrap">
 						<div class="contact-form-box">
 							<h4><i class="fas fa-map"></i> Shop Address</h4>
-							<p>34/8, East Hukupara <br> Gifirtok, Sadan. <br> Country Name</p>
+							<p>34/8, Sarit centre <br> Westlands. <br> Kenya</p>
 						</div>
 						<div class="contact-form-box">
 							<h4><i class="far fa-clock"></i> Shop Hours</h4>
@@ -72,7 +73,7 @@
 						</div>
 						<div class="contact-form-box">
 							<h4><i class="fas fa-address-book"></i> Contact</h4>
-							<p>Phone: +00 111 222 3333 <br> Email: support@fruitkha.com</p>
+							<p>Phone: +00 111 222 3333 <br> Email: support@artalchemy.com</p>
 						</div>
 					</div>
 				</div>

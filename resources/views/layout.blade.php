@@ -7,7 +7,7 @@
 	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
 	<!-- title -->
-	<title>Fruitkha - Slider Version</title>
+	<title>Artful Alchemy</title>
 
 	<!-- favicon -->
 	<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
@@ -128,24 +128,25 @@
 				<div class="col-lg-3 col-md-6">
 					<div class="footer-box about-widget">
 						<h2 class="widget-title">About us</h2>
-						<p>Ut enim ad minim veniam perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
+						<p>Crafting Creativity, Embracing Passion. At Artful Alchemy,
+                            we are more than a platform; we are a canvas for artists to weave their stories, and art enthusiasts to embark on a journey of discovery. Join us in celebrating the transformative power of art, where every piece tells a unique tale</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="footer-box get-in-touch">
 						<h2 class="widget-title">Get in Touch</h2>
 						<ul>
-							<li>34/8, East Hukupara, Gifirtok, Sadan.</li>
-							<li>support@fruitkha.com</li>
+							<li>34/8, Sarit centre, westlands, Kenya.</li>
+							<li>support@artalchemy.com</li>
 							<li>+00 111 222 3333</li>
 						</ul>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="footer-box pages">
-						<h2 class="widget-title">Pages</h2>
+						<h2 class="widget-title">More</h2>
 						<ul>
-							<li><a href="index.html">Home</a></li>
+							<li><a href="/welcome">Home</a></li>
 							<li><a href="/about">About</a></li>
 							<li><a href="services.html">Shop</a></li>
 							<li><a href="/news">News</a></li>
