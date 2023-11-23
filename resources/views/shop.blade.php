@@ -20,12 +20,25 @@
 	</div>
 	<!-- end search arewa -->
 
-
+	<!-- breadcrumb-section -->
+	<div class="breadcrumb-section breadcrumb-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2 text-center">
+					<div class="breadcrumb-text">
+						<p>Fresh and Organic</p>
+						<h1>Shop</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end breadcrumb section -->
 
 	<!-- products -->
 	<div class="product-section mt-150 mb-150">
 		<div class="container">
-
+        
 			<div class="row">
                 <div class="col-md-12">
                     <div class="product-filters">
@@ -39,6 +52,7 @@
                 </div>
             </div>
 
+
 			<div class="row product-lists">
 				<div class="col-lg-4 col-md-6 text-center strawberry">
 					<div class="single-product-item">
@@ -50,6 +64,9 @@
 						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 					</div>
 				</div>
+
+
+
 				<div class="col-lg-4 col-md-6 text-center berry">
 					<div class="single-product-item">
 						<div class="product-image">
@@ -145,8 +162,8 @@
 						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 					</div>
 				</div>
-			
-			<div class="col-lg-4 col-md-6 text-center strawberry">
+
+				<div class="col-lg-4 col-md-6 text-center strawberry">
 					<div class="single-product-item">
 						<div class="product-image">
 							<a href="single-product.html"><img src="assets/img/products/image9.jpg" alt=""></a>
@@ -163,7 +180,7 @@
 						<div class="product-image">
 							<a href="single-product.html"><img src="assets/img/products/image10.jpg" alt=""></a>
 						</div>
-						<h3>Galatic Melody</h3>
+						<h3>Galatic Mrelody</h3>
 						<p class="product-price"><span></span>Ksh 20,000 </p>
 						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 					</div>
@@ -276,20 +293,7 @@
 					</div>
 				</div>
 		
-			
-			<div class="col-lg-4 col-md-6 text-center strawberry">
-					<div class="single-product-item">
-						<div class="product-image">
-							<a href="single-product.html"><img src="assets/img/products/image20.jpg" alt=""></a>
-						</div>
-						<h3>Solitary Pine Symphony</h3>
-						<p class="product-price"><span></span>Ksh 23,000 </p>
-						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
-					</div>
-				</div>
-		
-
-			<div class="col-lg-4 col-md-6 text-center strawberry">
+				<div class="col-lg-4 col-md-6 text-center strawberry">
 					<div class="single-product-item">
 						<div class="product-image">
 							<a href="single-product.html"><img src="assets/img/products/image21.jpg" alt=""></a>
@@ -483,17 +487,6 @@
 				<div class="col-lg-4 col-md-6 text-center strawberry">
 					<div class="single-product-item">
 						<div class="product-image">
-							<a href="single-product.html"><img src="assets/img/products/image39.jpg" alt=""></a>
-						</div>
-						<h3> Zazibar Zest</h3>
-						<p class="product-price"><span></span>Ksh 100 </p>
-						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-6 text-center strawberry">
-					<div class="single-product-item">
-						<div class="product-image">
 							<a href="single-product.html"><img src="assets/img/products/image40.jpg" alt=""></a>
 						</div>
 						<h3> Kilimanjaro Drops</h3>
@@ -578,7 +571,33 @@
 					</div>
 				</div>
 
+
+				<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image39.jpg" alt=""></a>
+						</div>
+						<h3> Zazibar Zest</h3>
+						<p class="product-price"><span></span>Ksh 100 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+			
+			<div class="col-lg-4 col-md-6 text-center strawberry">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="assets/img/products/image20.jpg" alt=""></a>
+						</div>
+						<h3>Solitary Pine Symphony</h3>
+						<p class="product-price"><span></span>Ksh 23,000 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+				
+			
+			
 			</div>
+
 
 			
 
