@@ -5,9 +5,10 @@
 ----------------------------------------------------------------------------- */
 .hero-bg {
   background-image: url(../img/hero-bg.jpg);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-attachment: fixed;
+
 }
 
 .hero-text {
@@ -48,6 +49,7 @@ html, body {
     text-transform: uppercase;
     letter-spacing: 7px;
     font-size: 15px;
+
   }
 
   h1 {
@@ -86,13 +88,13 @@ html, body {
 }
 
 .hero-area div.hero-form {
-  background-color: $white-color;
+ background-color: $white-color;
   text-align: center;
   width: 380px;
   margin: 0 auto;
   margin-right: 0;
   border-radius: 5px;
-  box-shadow: 0 0 15px #2d2d2d;
+box-shadow: 0 0 15px #2d2d2d;
   position: absolute;
   right: 30px;
   bottom: -15%;
@@ -132,6 +134,7 @@ input[type="submit"] {
     &.hero-text {
       display: table;
       width: 100%;
+      text-align: center;
     }
 
     &.hero-text-tablecell {
@@ -150,7 +153,7 @@ input[type="submit"] {
 .single-homepage-slider {
   background-size: cover;
   background-position: center;
-  background-color: #020C0E;
+   background-color: #020C0E;
   position: relative;
   z-index: 1;
 
