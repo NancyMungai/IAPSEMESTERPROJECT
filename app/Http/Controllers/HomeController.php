@@ -8,6 +8,7 @@ class HomeController extends Controller
 {
     public function index()
     {
+       
         return view('home');
     }
     public function about()
@@ -51,6 +52,12 @@ class HomeController extends Controller
     public function welcome()
     {
         return view('welcome');
+    }
+
+    public function adminhome()
+    {
+        // Logic for admin dashboard
+        return view('adminhome');
     }
 
 
