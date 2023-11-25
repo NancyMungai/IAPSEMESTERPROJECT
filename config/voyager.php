@@ -181,18 +181,39 @@ return [
     |
     */
 
-    'primary_color' => '#22A7F0',
+    'primary_color' => '#F28123',
 
     'show_dev_tips' => true, // Show development tip "How To Use:" in Menu and Settings
 
     // Here you can specify additional assets you would like to be included in the master.blade
     'additional_css' => [
-        //'css/custom.css',
+        'assets/img/favicon.png',
+        'https://fonts.googleapis.com/css?family=Open+Sans:300,400,700',
+        'https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap',
+        'public/assets/css/all.min.css',
+        'public/assets/bootstrap/css/bootstrap.min.css',
+        'public/assets/css/owl.carousel.css',
+        'public/assets/css/magnific-popup.css',
+        'public/assets/css/animate.css',
+        'public/assets/css/meanmenu.min.css',
+        'public/assets/css/main.css',
+        'public/assets/css/responsive.css',
     ],
+    
 
     'additional_js' => [
-        //'js/custom.js',
+        'public/assets/js/jquery-1.11.3.min.js',
+        'public/assets/bootstrap/js/bootstrap.min.js',
+        'public/assets/js/jquery.countdown.js',
+        'public/assets/js/jquery.isotope-3.0.6.min.js',
+        'public/assets/js/waypoints.js',
+        'public/assets/js/owl.carousel.min.js',
+        'public/assets/js/jquery.magnific-popup.min.js',
+        'public/assets/js/jquery.meanmenu.min.js',
+        'public/assets/js/sticker.js',
+        'public/assets/js/main.js',
     ],
+    
 
     'googlemaps' => [
         'key'    => env('GOOGLE_MAPS_KEY', ''),
