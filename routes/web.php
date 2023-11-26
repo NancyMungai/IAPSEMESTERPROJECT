@@ -31,7 +31,7 @@ Route::middleware('auth')->group(function () {
 
 require __DIR__.'/auth.php';
 
-Auth::routes();
+// Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/login', [App\Http\Controllers\HomeController::class, 'login'])->name('login');
@@ -45,4 +45,5 @@ Route::get('/cart', [App\Http\Controllers\HomeController::class, 'cart'])->name(
 Route::get('/checkout', [App\Http\Controllers\HomeController::class, 'checkout'])->name('checkout');
 Route::get('/news', [App\Http\Controllers\HomeController::class, 'news'])->name('news');
 Route::get('/singleNews', [App\Http\Controllers\HomeController::class, 'singleNews'])->name('singleNews');
+Route::post('/add_to_cart', [App\Http\Controllers\ProductController::class, 'addToCart'])->name('add_to_cart');
 // Route::get('/shop', [App\Http\Controllers\ProductsController::class, 'add_cart'])->name('shop');
