@@ -15,13 +15,13 @@ return new class extends Migration
             $table->id();
             $table->string("product-name");
             $table->string("photo");
-            $table->int("product-price");
-           
+            $table->integer("product-price");
+
             $table->timestamps();
         });
     }
-    
-    
+
+
 
     /**
      * Reverse the migrations.
