@@ -8,9 +8,7 @@ use Illuminate\Http\Request;
 class MPESAController extends Controller
 {
     public function getAccessToken(){
-        $url = env('MPESA_ENV')==0
-        ?''
-        :'';
+        $url = env('MPESA_ENV') == 0 ?'' :'';
         $curl = curl_init($url);
         curl_setopt_array(
             $curl,
