@@ -13,15 +13,15 @@ return new class extends Migration
     {
         Schema::create('carts', function (Blueprint $table) {
             $table->id();
-            $table->string("product-name");
+            $table->string("product_name");
             $table->string("photo");
-            $table->int("product-price");
-           
+            $table->integer("product_price");
+
             $table->timestamps();
         });
     }
-    
-    
+
+
 
     /**
      * Reverse the migrations.

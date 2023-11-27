@@ -27,7 +27,7 @@
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="breadcrumb-text">
 						<p>Discover the Essence of Artful Alchemy</p>
-						<h1>Login In</h1>
+						<h1>Login </h1>
 					</div>
 				</div>
 			</div>

@@ -2,7 +2,8 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\CartController;
 
 /*
 |--------------------------------------------------------------------------
@@ -36,7 +37,6 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/login', [App\Http\Controllers\HomeController::class, 'login'])->name('login');
 Route::get('/register', [App\Http\Controllers\HomeController::class, 'register'])->name('register');
-Route::get('/admin', [App\Http\Controllers\AdminController::class, 'adminhome'])->name('admin');
 
 Route::get('/about', [App\Http\Controllers\HomeController::class, 'about'])->name('about');
 Route::get('/contact', [App\Http\Controllers\HomeController::class, 'contact'])->name('contact');
@@ -46,9 +46,18 @@ Route::get('/cart', [App\Http\Controllers\HomeController::class, 'cart'])->name(
 Route::get('/checkout', [App\Http\Controllers\HomeController::class, 'checkout'])->name('checkout');
 Route::get('/news', [App\Http\Controllers\HomeController::class, 'news'])->name('news');
 Route::get('/singleNews', [App\Http\Controllers\HomeController::class, 'singleNews'])->name('singleNews');
-Route::get('/shop', [App\Http\Controllers\ProductsController::class, 'add_cart'])->name('shop');
+Route::get('/singleProduct', [App\Http\Controllers\ProductController::class, 'singleProduct'])->name('singleProduct');
+// Route::get('/shop', [App\Http\Controllers\ProductsController::class, 'add_cart'])->name('shop');
+Route::get('/singleProduct/{id}', [ProductController::class, 'singleProduct'])->name('singleProduct');
 
 
-Route::group(['prefix' => 'admin'], function () {
-    Voyager::routes();
-});
+
+Route::get('/shop/{id}', 'ProductController@shop')->name('shop');
+
+Route::get('/shop', [ProductController::class, 'shop'])->name('shop');
+Route::post('/add_to_cart', [CartController::class, 'addToCart'])->name('add_to_cart');
+Route::get('/cart', [CartController::class, 'viewCart'])->name('cart');
+
+Route::post('/remove_from_cart', [CartController::class, 'removeFromCart'])->name('remove_from_cart');
+
+Route::delete('/remove_from_cart/{id}', [CartController::class, 'removeFromCart'])->name('remove_from_cart');
