@@ -47,4 +47,4 @@ Route::get('/checkout', [App\Http\Controllers\HomeController::class, 'checkout']
 Route::get('/news', [App\Http\Controllers\HomeController::class, 'news'])->name('news');
 Route::get('/singleNews', [App\Http\Controllers\HomeController::class, 'singleNews'])->name('singleNews');
 Route::get('/shop', [App\Http\Controllers\ProductsController::class, 'add_cart'])->name('shop');
-Route::get('/access-token', [MPESAController::class, 'getAccessToken'])->name('access.token');
+Route::post('/get-token', [MPESAController::class, 'getAccessToken']);

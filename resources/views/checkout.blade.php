@@ -154,6 +154,7 @@
 											Obtain Access Token
 										</div>
 										<div class= "card-body">
+										<h4 id="access_token"></h4>
 											<button id="getAccessToken" class="btn btn-primary">Request Access Token</button>
 										</div>
 									</div>
@@ -190,13 +191,16 @@
 
 					</div>
 					<script src="{{ asset ('js/app.js') }}"></script>
+					<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
 <script>
 	document.getElementById('getAccessToken').addEventListener('click', (event) =>{
 		event.preventDefault()
 
 		axios.post('/get-token', {})
 		.then((response ) => {
-			console.log(response);
+			console.log(response.data);
+			document.getElementById('access_token').innerHTML = response.data.access_token
 		})
 		.catch((error) =>{
 			console.log(error);
