@@ -58,11 +58,21 @@
                         </div>
                         <h3>{{$product->product_name}}</h3>
                         <p class="product-price"><span></span> Ksh {{$product->product_price}} </p>
-                        <form action="/add_to_cart" method="POST">
+                        {{-- <form id="addToCartForm_{{$product->id}}" data-product-id="{{$product->id}}">
                             @csrf
                             <input type="hidden" name="product-name" value="{{$product->product_name}}">
-                            <a href="/cart" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                            {{-- <button type="button" class="cart-btn add-to-cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button> --}}
+                            {{-- <a href="/cart" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                        </form> --}}
+                        <form method="post" action="{{ route('add_to_cart') }}">
+                            @csrf
+                            <input type="hidden" name="product-name" value="{{ $product->product_name }}">
+                            <input type="hidden" name="product-id" value="{{ $product->id }}">
+                            <button type="submit">Add to Cart</button>
                         </form>
+
+
+
                     </div>
                 </div>
             @endforeach

@@ -52,9 +52,9 @@ class ProductController extends Controller
         $product = Product::find($productId);
 
         // Retrieve other related products
-        $relatedProducts = Product::where('id', '!=', $productId)->limit(3)->get();
+        $products = Product::where('id', '!=', $productId)->limit(3)->get();
 
-        return view('singleProduct', ['product' => $product, 'Products' => $relatedProducts]);
+        return view('singleProduct', ['product' => $product, 'Products' => $products]);
     }
 
 }

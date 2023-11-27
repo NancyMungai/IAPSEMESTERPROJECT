@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\CartController;
 
 /*
 |--------------------------------------------------------------------------
@@ -54,3 +55,9 @@ Route::get('/singleProduct/{id}', [ProductController::class, 'singleProduct'])->
 Route::get('/shop/{id}', 'ProductController@shop')->name('shop');
 
 Route::get('/shop', [ProductController::class, 'shop'])->name('shop');
+Route::post('/add_to_cart', [CartController::class, 'addToCart'])->name('add_to_cart');
+Route::get('/cart', [CartController::class, 'viewCart'])->name('cart');
+
+Route::post('/remove_from_cart', [CartController::class, 'removeFromCart'])->name('remove_from_cart');
+
+Route::delete('/remove_from_cart/{id}', [CartController::class, 'removeFromCart'])->name('remove_from_cart');
