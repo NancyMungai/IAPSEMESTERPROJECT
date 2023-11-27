@@ -61,3 +61,7 @@ Route::get('/cart', [CartController::class, 'viewCart'])->name('cart');
 Route::post('/remove_from_cart', [CartController::class, 'removeFromCart'])->name('remove_from_cart');
 
 Route::delete('/remove_from_cart/{id}', [CartController::class, 'removeFromCart'])->name('remove_from_cart');
+
+Route::middleware(['web', 'auth', '2fa'])->group(function () {
+    // Your routes that require 2FA for all users
+});
