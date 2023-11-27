@@ -43,7 +43,7 @@ class LoginController extends Controller
     protected function authenticated(Request $request, $user)
 {
     if ($user->usertype === 'admin') {
-        return redirect()->route('admin.home');
+        return redirect()->route('voyager.dashboard');
     }
 
     return redirect(RouteServiceProvider::HOME);
