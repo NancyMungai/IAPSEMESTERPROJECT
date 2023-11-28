@@ -20,3 +20,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 Route::get('/access-token', [MPESAController::class, 'getAccessToken'])->name('access.token');
+Route::post('validation',)

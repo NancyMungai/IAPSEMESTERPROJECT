@@ -23,8 +23,8 @@ CURLOPT_USERPWD => env('MPESA_CONSUMER_KEY') . ':' . env('MPESA_CONSUMER_SECRET'
          );
          $response = curl_exec($curl);
          curl_close($curl);
-         return $response;
-        //return $response->access_token;*\snmp_set_oid_numeric_print
+        // return $response -> access_token;
+        return $response;
 
     }
 
@@ -45,12 +45,14 @@ return $response;
 
 public function makeHttp($url, $body)
 {
+   // $url = 'https://sandbox.safaricom.co.ke/mpesa/b2c/v3/paymentrequest';
+
     $curl = curl_init();
     curl_setopt_array(
         $curl,
         array(
            CURLOPT_URL => $url,
-           CURLOPT_HTTPHEADER => array('Content-Type:applicaqtion/json', 'Authorization:Bearer '. $this ->getAccessToken()), //Setting custom header
+           CURLOPT_HTTPHEADER => array('Content-Type:application/json', 'Authorization:Bearer '. $this ->getAccessToken()), //Setting custom header
            CURLOPT_RETURNTRANSFER => true,
            CURLOPT_POST => true,
            CURLOPT_POSTFIELDS => json_encode($body)
