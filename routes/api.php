@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\payments\mpesa\MPESAController;
+use App\Http\Controllers\payments\mpesa\MPESAResponsesController;
 
 
 /*
@@ -20,4 +21,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 Route::get('/access-token', [MPESAController::class, 'getAccessToken'])->name('access.token');
-Route::post('validation',)
+Route::post('validation',[MPESAResponsesController::class, 'validation']);
+Route::post('confirmation', [MPESAResponsesController::class, 'confirmation']);
