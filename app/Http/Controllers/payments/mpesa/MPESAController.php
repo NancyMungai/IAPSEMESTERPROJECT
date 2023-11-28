@@ -30,7 +30,7 @@ CURLOPT_USERPWD => env('MPESA_CONSUMER_KEY') . ':' . env('MPESA_CONSUMER_SECRET'
 
     public function registerURLS(){
 $body = array(
-    'Shortcode' => env('MPESA_SHORTCODE'),
+    'ShortCode' => env('MPESA_SHORTCODE'),
     'ResponseType' => 'Completed',
     'ConfirmationURL' =>env('MPESA_TEST_URL') . '/api/confirm/dsxcv',
     'ValidationURL' => env('MPESA_TEST_URL') . '/api/validation'
@@ -40,8 +40,8 @@ $url = env('MPESA_ENV') == 0
        :''; //perhaps add live
 
 $response = $this->makeHttp($url, $body);
-
-}
+return $response;
+    }
 
 public function makeHttp($url, $body)
 {
@@ -64,43 +64,5 @@ return $curl_response;
 
 }
 
-    /**
-     * Display a listing of the resource.
-     */
-    public function index()
-    {
-        //
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     */
-    public function store(Request $request)
-    {
-        //
-    }
-
-    /**
-     * Display the specified resource.
-     */
-    public function show(string $id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(Request $request, string $id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(string $id)
-    {
-        //
-    }
+  
 }
