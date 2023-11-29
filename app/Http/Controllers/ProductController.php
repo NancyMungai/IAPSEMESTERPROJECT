@@ -57,4 +57,11 @@ class ProductController extends Controller
         return view('singleProduct', ['product' => $product, 'Products' => $products]);
     }
 
+    public function cartAdd(Request $request){
+        if ($request -> isMethod('post')){
+            $data= $request ->all();
+            echo "<pre>"; print_r($data); die;
+        }
+    }
+
 }

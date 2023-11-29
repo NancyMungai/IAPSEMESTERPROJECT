@@ -53,7 +53,7 @@ Route::get('/singleProduct/{id}', [ProductController::class, 'singleProduct'])->
 
 
 Route::get('/shop/{id}', 'ProductController@shop')->name('shop');
-
+Route::post('cart/add', 'ProductsController@cartAdd');
 Route::get('/shop', [ProductController::class, 'shop'])->name('shop');
 Route::post('/add_to_cart', [CartController::class, 'addToCart'])->name('add_to_cart');
 Route::get('/cart', [CartController::class, 'viewCart'])->name('cart');
