@@ -1,6 +1,39 @@
 @extends('layout')
 
 @section('content')
+	<!-- search area -->
+	<div class="search-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<span class="close-btn"><i class="fas fa-window-close"></i></span>
+					<div class="search-bar">
+						<div class="search-bar-tablecell">
+							<h3>Search For:</h3>
+							<input type="text" placeholder="Keywords">
+							<button type="submit">Search <i class="fas fa-search"></i></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end search area -->
+
+	<!-- breadcrumb-section -->
+	<div class="breadcrumb-section breadcrumb-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2 text-center">
+					<div class="breadcrumb-text">
+						<p>Discover the Essence of Artful Alchemy</p>
+						<h1>Login </h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end breadcrumb section -->
     <div class="container" style="margin-top: 100px; margin-bottom: 10px;">
         <div class="row justify-content-center">
             <div class="col-md-8">
@@ -38,6 +71,22 @@
                                     @enderror
                                 </div>
                             </div>
+                            @if (session('status') == 'two-factor-authentication-enabled')
+                            <div class="form-group row">
+                                <label for="code" class="col-md-4 col-form-label text-md-right">{{ __('Two Factor Code') }}</label>
+
+                                <div class="col-md-6">
+
+                                <input id="code" type="text" class="form-control @error('code') is-invalid @enderror" name="code" required autocomplete="current-code">
+
+                                @error('code')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                                @enderror
+                            </div>
+                        </div>
+                        @endif
 
                             <div class="form-group row">
                                 <div class="col-md-6 offset-md-4">
@@ -79,3 +128,4 @@
         </div>
     </div>
 @endsection
+

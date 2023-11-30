@@ -127,7 +127,7 @@
 							<a href="single-product.html"><img src="assets/img/products/product-img-1.jpg" alt=""></a>
 						</div>
 						<h3>Chronicles of Chroma</h3>
-						<p class="product-price"><span>Per Kg</span> KSH 85,000  </p>
+						<p class="product-price"><span></span> KSH 85,000  </p>
 						<a href="/cart" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 					</div>
 				</div>
@@ -137,7 +137,7 @@
 							<a href="single-product.html"><img src="assets/img/products/product-img-2.jpg" alt=""></a>
 						</div>
 						<h3>Silhouette Sonata</h3>
-						<p class="product-price"><span>Per Kg</span> KSH 70,000 </p>
+						<p class="product-price"><span></span> KSH 70,000 </p>
 						<a href="/cart" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 					</div>
 				</div>
@@ -147,7 +147,7 @@
 							<a href="single-product.html"><img src="assets/img/products/product-img-3.jpg" alt=""></a>
 						</div>
 						<h3>Ephemeral Bonds</h3>
-						<p class="product-price"><span>Per Kg</span> KSH 35,000</p>
+						<p class="product-price"><span></span> KSH 35,000</p>
 						<a href="/cart" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 					</div>
 				</div>

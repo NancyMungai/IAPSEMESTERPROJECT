@@ -64,17 +64,12 @@
 								<li><a href="/about">About</a></li>
 								</li>
 								<li><a href="/news">News</a>
-									<ul class="sub-menu">
-										<li><a href="/news">News</a></li>
 
-									</ul>
 								</li>
 								<li><a href="/contact">Contact</a></li>
 								<li><a href="/shop">Shop</a>
 									<ul class="sub-menu">
-										<li><a href="/shop">Shop</a></li>
 										<li><a href="/checkout">Check Out</a></li>
-										<li><a href="single-product.html">Single Product</a></li>
 										<li><a href="/cart">Cart</a></li>
 									</ul>
 								</li>
