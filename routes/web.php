@@ -86,3 +86,4 @@ Route::post('/checkout', [CheckoutController::class, 'processCheckout']);
 Route::post('/get-token', [MPESAController::class, 'getAccessToken']);
 Route::post('/register-urls', [MPESAController::class, 'registerURLS']);
 
+Route::gpst('pay',[PaypalController::class, 'pay'])->name('payment');
