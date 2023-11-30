@@ -47,11 +47,7 @@ Route::get('/cart', [App\Http\Controllers\HomeController::class, 'cart'])->name(
 Route::get('/checkout', [App\Http\Controllers\HomeController::class, 'checkout'])->name('checkout');
 Route::get('/news', [App\Http\Controllers\HomeController::class, 'news'])->name('news');
 Route::get('/singleNews', [App\Http\Controllers\HomeController::class, 'singleNews'])->name('singleNews');
-<<<<<<< HEAD
 Route::post('/add_to_cart', [App\Http\Controllers\ProductController::class, 'addToCart'])->name('add_to_cart');
-=======
-Route::get('/singleProduct', [App\Http\Controllers\ProductController::class, 'singleProduct'])->name('singleProduct');
->>>>>>> 911033a5e6f3f24b163bea9a823017905d5c8034
 // Route::get('/shop', [App\Http\Controllers\ProductsController::class, 'add_cart'])->name('shop');
 Route::get('/singleProduct/{id}', [ProductController::class, 'singleProduct'])->name('singleProduct');
 
