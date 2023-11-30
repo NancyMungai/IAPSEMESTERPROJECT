@@ -1,66 +1,66 @@
 <?php
+#app\Http\Controllers\ProductController.php
+
 namespace App\Http\Controllers;
 
 use App\Models\Product;
 use Illuminate\Http\Request;
 
+
 class ProductController extends Controller
 {
-    public function index()
-    {
-        $products = Product::all();
-        return view('products', compact('products'));
-    }
-
-    public function detail($productname)
-    {
-        $data = Product::where('product_name', $productname)->first();
-        return view('detail', ['product' => $data]);
-    }
-
-    public function addToCart(Request $request)
-    {
-        // You can access the product name using $request->input('product-name')
-        // Perform your cart logic here
-        return "Product added to cart successfully!";
-    }
-
-    // public function singleProduct()
-    // {
-    //     $products = Product::all();
-    //     return view('singleProduct', ['Products' => $products]);
-    // }
-
-    public function show($id)
-    {
-        // Retrieve product information from the database or any data source
-        $product = Product::find($id);
-
-        // Pass the product data to the view
-        return view('singleProduct', ['Product' => $product]);
-    }
-
     public function shop()
     {
         $products = Product::all();
-        return view('shop', ['Products' => $products]);
+        return view('shop', compact('products')); //->with('i', (request()->input('page', 1) - 1) * 5);
+        
     }
-
-    public function singleProduct($productId)
+   public function cart()
     {
-        // Retrieve the main product information
-        $product = Product::find($productId);
-
-        // Retrieve other related products
-        $products = Product::where('id', '!=', $productId)->limit(3)->get();
-
-        return view('singleProduct', ['product' => $product, 'Products' => $products]);
+        return view('cart');
     }
 
-    public function cartAdd(Request $request){
-        if ($request -> isMethod('post')){
-            $data= $request ->all();
-            echo "<pre>"; print_r($data); die;
+    
+    public function addToCart($id)
+    {
+        $product = Product::findOrFail($id);
+
+        $cart = session()->get('cart', []);
+
+        if(isset($cart[$id])) {
+            $cart[$id]['quantity']++;
+        }  else {
+            $cart[$id] = [
+                "product_name" => $product->product_name,
+                "product_image" => $product->product_image,
+                "product_price" => $product->product_price,
+                "quantity" => 1
+            ];
+        }
+
+        session()->put('cart', $cart);
+        return redirect()->back()->with('success', 'Product add to cart successfully!');
+    }
+
+    public function update(Request $request)
+    {
+if($request->id && $request->quantity){
+            $cart = session()->get('cart');
+            $cart[$request->id]["quantity"] = $request->quantity;
+            session()->put('cart', $cart);
+            session()->flash('success', 'Cart successfully updated!');
+        }
+    }
+
+    public function remove(Request $request)
+    {
+        if($request->id) {
+            $cart = session()->get('cart');
+            if(isset($cart[$request->id])) {
+                unset($cart[$request->id]);
+                session()->put('cart', $cart);
+}
+            session()->flash('success', 'Product successfully removed!');
         }
     }
 

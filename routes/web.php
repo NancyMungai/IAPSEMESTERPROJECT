@@ -4,7 +4,7 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\CartController;
-
+use App\Http\Controllers\CheckoutController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -52,9 +52,9 @@ Route::get('/singleProduct/{id}', [ProductController::class, 'singleProduct'])->
 
 
 
-Route::get('/shop/{id}', 'ProductController@shop')->name('shop');
+//Route::get('/shop/{id}', 'ProductController@shop')->name('shop');
 Route::post('cart/add', 'ProductsController@cartAdd');
-Route::get('/shop', [ProductController::class, 'shop'])->name('shop');
+//Route::get('/shop', [ProductController::class, 'shop'])->name('shop');
 Route::post('/add_to_cart', [CartController::class, 'addToCart'])->name('add_to_cart');
 Route::get('/cart', [CartController::class, 'viewCart'])->name('cart');
 
@@ -62,6 +62,23 @@ Route::post('/remove_from_cart', [CartController::class, 'removeFromCart'])->nam
 
 Route::delete('/remove_from_cart/{id}', [CartController::class, 'removeFromCart'])->name('remove_from_cart');
 
-Route::middleware(['web', 'auth', '2fa'])->group(function () {
     // Your routes that require 2FA for all users
-});
+
+    Route::get('/', [ProductController::class, 'shop']);
+Route::get('cart', [ProductController::class, 'cart'])->name('cart');
+Route::get('add-to-cart/{id}', [ProductController::class, 'addToCart'])->name('add_to_cart');
+Route::patch('update-cart', [ProductController::class, 'update'])->name('update_cart');
+Route::delete('remove-from-cart', [ProductController::class, 'remove'])->name('remove_from_cart');
+
+// routes/web.php or routes/api.php
+
+
+
+Route::get('/shop', [ProductController::class, 'shop'])->name('shop');
+
+// routes/web.php or routes/api.php
+
+
+
+Route::get('/checkout', [CheckoutController::class, 'checkout'])->name('checkout');
+Route::post('/checkout', [CheckoutController::class, 'processCheckout']);

@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Models\Product;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -41,10 +41,10 @@ class HomeController extends Controller
     {
         return view('singleNews');
     }
-    public function shop()
-    {
-        return view('shop');
-    }
+   // public function shop()
+   // {
+   //     return view('shop');
+   // }
     public function checkout()
     {
         return view('checkout');
@@ -60,10 +60,20 @@ class HomeController extends Controller
         return view('adminhome');
     }
 
+    public function shop()
+    {
+        // Retrieve products from the database or any other source
+        $products = Product::all(); // Assuming you have a Product model
+
+        // Pass the $products variable to the view
+        return view('shop', ['products' => $products]);
+    }
+
     public function singleProduct()
     {
         // Logic for admin dashboard
         return view('singleProduct');
     }
-
+    
+    
 }
