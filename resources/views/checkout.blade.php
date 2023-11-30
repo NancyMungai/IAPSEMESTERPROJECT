@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="csrf-token" content= "{{ csrf_token() }}">
 	<title>Mobile money payment</title>
 
 	<body>
@@ -61,6 +62,7 @@
 									<div class="card">
 										<div class= "card-header">Register URLs</div>
 										<div class= "card-body">
+											<div id="response"></div>
 										<button id="registerURLS" class= "btn btn-primary">Register URLs</button>
 
 										</div>
@@ -111,6 +113,11 @@
 
 		axios.post('register-urls', {})
 		.then((response ) => {
+			if(response.data.ResponseDescription){
+			document.getElementById('response').innerHTML = response.data.ResponseDescription
+		}else{
+			document.getElementById('response').innerHTML = response.data.errorMessage
+		}
 			console.log(response.data);
 		})
 		.catch((error) =>{

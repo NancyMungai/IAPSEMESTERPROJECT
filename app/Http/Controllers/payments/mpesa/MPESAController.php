@@ -32,11 +32,11 @@ CURLOPT_USERPWD => env('MPESA_CONSUMER_KEY') . ':' . env('MPESA_CONSUMER_SECRET'
 $body = array(
     'ShortCode' => env('MPESA_SHORTCODE'),
     'ResponseType' => 'Completed',
-    'ConfirmationURL' =>env('MPESA_TEST_URL') . '/api/confirm/dsxcv',
+    'ConfirmationURL' =>env('MPESA_TEST_URL') . '/api/confirmation',
     'ValidationURL' => env('MPESA_TEST_URL') . '/api/validation'
 );
 $url = env('MPESA_ENV') == 0 
-        ?'https://sandbox.safaricom.co.ke/mpesa/c2b/v3/registerurl'
+        ?'https://sandbox.safaricom.co.ke/mpesa/c2b/v1/registerurl'
        :''; //perhaps add live
 
 $response = $this->makeHttp($url, $body);
@@ -45,8 +45,6 @@ return $response;
 
 public function makeHttp($url, $body)
 {
-   // $url = 'https://sandbox.safaricom.co.ke/mpesa/b2c/v3/paymentrequest';
-
     $curl = curl_init();
     curl_setopt_array(
         $curl,
