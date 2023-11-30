@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use App\Models\Product;
 use Illuminate\Http\Request;
+use App\Models\Product;
 
 class HomeController extends Controller
 {
@@ -41,10 +42,18 @@ class HomeController extends Controller
     {
         return view('singleNews');
     }
+<<<<<<< HEAD
    // public function shop()
    // {
    //     return view('shop');
    // }
+=======
+    public function shop()
+    {
+        $products = Product::all();
+        return view('shop', ['products'=>$products]);
+    }
+>>>>>>> bfd38eeea2868ad41ab3097a8c6b204cce4a9213
     public function checkout()
     {
         return view('checkout');
