@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\CheckoutController;
+use App\Http\Controllers\payments\PaypalController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -83,7 +84,13 @@ Route::get('/shop', [ProductController::class, 'shop'])->name('shop');
 
 Route::get('/checkout', [CheckoutController::class, 'checkout'])->name('checkout');
 Route::post('/checkout', [CheckoutController::class, 'processCheckout']);
+Route::get('/success', function () {
+    return view('success');
+})->name('success');
+
 Route::post('/get-token', [MPESAController::class, 'getAccessToken']);
 Route::post('/register-urls', [MPESAController::class, 'registerURLS']);
 
-Route::gpst('pay',[PaypalController::class, 'pay'])->name('payment');
+Route::post('pay',[PaypalController::class, 'pay'])->name('payment');
+Route::get('success', [PaypalController::class, 'success']);
+Route::get('error', [PaypalController::class,'error']);

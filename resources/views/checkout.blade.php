@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-lg-12">
             <h2>Checkout</h2>
-            <form action="{{ route('checkout') }}" method="post">
+            <form action= "{{ route ('payment') }}"  method="post">
                 @csrf
                 <!-- Billing Address Fields -->
                 <div class="form-group">
@@ -52,17 +52,15 @@
                     </div>
                 </div>
 
-                <!-- Display the total amount from the query parameter -->
-                <div class="form-group">
-                    <label>Total Amount: ${{ request('total') }}</label>
-                </div>
+               
 
                 <!-- Add a hidden input field to pass total amount -->
-                <input type="hidden" name="total" value="{{ request('total') }}">
-
+                <input type="hidden" name="amount" value="20">
+                
                 <!-- Add a submit button -->
                 <button type="submit" class="btn btn-success">Proceed to Payment</button>
-            </form>
+                </form>
+             </form>
         </div>
     </div>
 </div>
